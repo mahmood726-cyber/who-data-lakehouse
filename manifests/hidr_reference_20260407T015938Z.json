@@ -1,0 +1,9 @@
+{
+  "source": "hidr",
+  "run_at": "20260407T015938Z",
+  "downloaded_files": {
+    "dataset_ids": "C:\\Projects\\who-data-lakehouse\\data\\reference\\hidr\\dataset_ids.csv",
+    "dataset_variables": "C:\\Projects\\who-data-lakehouse\\data\\reference\\hidr\\dataset_variables.xlsx",
+    "odata_feed_urls": "C:\\Projects\\who-data-lakehouse\\data\\reference\\hidr\\odata_feed_urls.xlsx"
+  }
+}

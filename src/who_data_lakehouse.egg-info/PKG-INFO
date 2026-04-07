@@ -1,0 +1,129 @@
+Metadata-Version: 2.4
+Name: who-data-lakehouse
+Version: 0.1.0
+Summary: Bulk download and cleaning pipeline for WHO public data.
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: beautifulsoup4>=4.12
+Requires-Dist: openpyxl>=3.1
+Requires-Dist: pandas>=2.2
+Requires-Dist: pyarrow>=15.0
+Requires-Dist: requests>=2.31
+
+# WHO Data Lakehouse
+
+`WHO Data Lakehouse` is a bulk-ingest and cleaning repo for public WHO data that is currently scattered across different interfaces, schemas, and download patterns.
+
+The project is built around three realities:
+
+1. WHO data is valuable but operationally messy.
+2. The public interfaces are not one thing. They are a mix of OData feeds, JSON APIs, and direct file downloads.
+3. The full corpus is too large and too changeable to treat like a normal hand-curated CSV repo. The repo should hold code, manifests, metadata, and small verified samples. Large snapshots should be produced by the pipeline.
+
+## Source map
+
+- `GHO OData API`
+  Source: https://www.who.int/data/gho/info/gho-odata-api
+  Use: indicators, dimensions, dimension values, and observation facts by indicator code.
+- `data.who.int indicator catalog`
+  Source site: https://data.who.int/indicators
+  Use: richer indicator metadata plus `DataExportUri` links for indicator-specific downloads.
+- `HIDR API`
+  Source: https://www.who.int/data/inequality-monitor/data/hidr-api
+  Use: reference tables plus whole-dataset downloads from the Health Inequality Data Repository.
+
+## Repo layout
+
+- `src/who_data_lakehouse/`
+  Python package for source connectors, normalization, and CLI entrypoints.
+- `data/raw/`
+  Unmodified snapshots from WHO interfaces.
+- `data/bronze/`
+  Minimally cleaned tabular outputs.
+- `data/silver/`
+  Normalized tables designed for analysis.
+- `data/reference/`
+  Reference tables and downloaded source documentation.
+- `manifests/`
+  Small JSON summaries that can live in git.
+- `output/playwright/`
+  Browser automation artifacts when API access is not enough.
+
+## Installation
+
+```powershell
+cd C:\Projects\who-data-lakehouse
+python -m pip install -e .
+```
+
+## Commands
+
+Fetch GHO metadata:
+
+```powershell
+who-data gho-metadata
+```
+
+Fetch WHO indicator catalog metadata from `data.who.int`:
+
+```powershell
+who-data datadot-catalog
+```
+
+Download HIDR reference documents:
+
+```powershell
+who-data hidr-reference
+```
+
+Download one HIDR dataset:
+
+```powershell
+who-data hidr-download --dataset-id rep_sdg
+```
+
+Download and clean GHO fact tables for a small sample:
+
+```powershell
+who-data gho-facts --indicator WHOSIS_000001 --indicator-limit 3
+```
+
+Run an end-to-end verification sample:
+
+```powershell
+who-data sample-sync --indicator-limit 3
+```
+
+## Clean schema
+
+The GHO cleaner writes two analysis-friendly tables per indicator:
+
+- `observations_wide`
+  One row per observation with normalized column names, parsed timestamps, and stable `observation_id`.
+- `observation_dimensions`
+  A long table that explodes WHO's `Dim1/Dim2/Dim3` pattern into explicit `dimension_role`, `dimension_type`, and `dimension_code` records.
+
+This avoids forcing analysts to decode slot-based columns every time.
+
+## Browser fallback
+
+Use APIs first. When a WHO page exposes downloads only through rendered pages or unstable front-end code, use the Playwright CLI wrapper in `C:\Users\user\.codex\skills\playwright\scripts\playwright_cli.sh`.
+
+Typical probe flow:
+
+```powershell
+$env:CODEX_HOME = "$HOME\\.codex"
+$env:PWCLI = "$env:CODEX_HOME\\skills\\playwright\\scripts\\playwright_cli.sh"
+& $env:PWCLI open https://data.who.int/indicators --headed
+& $env:PWCLI snapshot
+```
+
+Artifacts belong under `output/playwright/`.
+
+## GitHub guidance
+
+Do not commit the full raw WHO corpus into normal git history.
+
+- Commit code, docs, manifests, and small smoke-test outputs.
+- Produce large parquet snapshots or `.xlsx` pulls as generated artifacts.
+- If you later want public hosting for full outputs, prefer GitHub Releases, Hugging Face datasets, object storage, or a data registry.

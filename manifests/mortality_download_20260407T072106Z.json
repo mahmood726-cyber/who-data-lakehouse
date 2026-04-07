@@ -1,0 +1,24 @@
+{
+  "source": "mortality",
+  "run_at": "20260407T072106Z",
+  "download_count": 15,
+  "skipped_count": 0,
+  "error_count": 0,
+  "downloaded_files": {
+    "mort_documentation71f9e29d-7e3f-41e6-aafc-c4c1775c7aa3.zip": "C:\\Projects\\who-data-lakehouse\\data\\raw\\mortality\\mort_documentation71f9e29d-7e3f-41e6-aafc-c4c1775c7aa3.zip",
+    "mort_availability.zip": "C:\\Projects\\who-data-lakehouse\\data\\raw\\mortality\\mort_availability.zip",
+    "mort_country_codes.zip": "C:\\Projects\\who-data-lakehouse\\data\\raw\\mortality\\mort_country_codes.zip",
+    "mort_notes.zip": "C:\\Projects\\who-data-lakehouse\\data\\raw\\mortality\\mort_notes.zip",
+    "mort_pop.zip": "C:\\Projects\\who-data-lakehouse\\data\\raw\\mortality\\mort_pop.zip",
+    "morticd07.zip": "C:\\Projects\\who-data-lakehouse\\data\\raw\\mortality\\morticd07.zip",
+    "morticd08.zip": "C:\\Projects\\who-data-lakehouse\\data\\raw\\mortality\\morticd08.zip",
+    "morticd09.zip": "C:\\Projects\\who-data-lakehouse\\data\\raw\\mortality\\morticd09.zip",
+    "morticd10_part1.zip": "C:\\Projects\\who-data-lakehouse\\data\\raw\\mortality\\morticd10_part1.zip",
+    "morticd10_part2.zip": "C:\\Projects\\who-data-lakehouse\\data\\raw\\mortality\\morticd10_part2.zip",
+    "morticd10_part3.zip": "C:\\Projects\\who-data-lakehouse\\data\\raw\\mortality\\morticd10_part3.zip",
+    "morticd10_part4.zip": "C:\\Projects\\who-data-lakehouse\\data\\raw\\mortality\\morticd10_part4.zip",
+    "morticd10_part5.zip": "C:\\Projects\\who-data-lakehouse\\data\\raw\\mortality\\morticd10_part5.zip",
+    "morticd10_part6.zip": "C:\\Projects\\who-data-lakehouse\\data\\raw\\mortality\\morticd10_part6.zip",
+    "morticd10_add.zip": "C:\\Projects\\who-data-lakehouse\\data\\raw\\mortality\\morticd10_add.zip"
+  }
+}

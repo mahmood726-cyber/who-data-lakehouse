@@ -1,0 +1,237 @@
+{
+  "source": "xmart",
+  "service": "ncd",
+  "scope": "all",
+  "started_at": "2026-04-07T08:42:01.749827+00:00",
+  "finished_at": "2026-04-07T09:44:44.457328+00:00",
+  "duration_minutes": 62.7,
+  "entity_set_count": 25,
+  "downloaded_count": 25,
+  "skipped_count": 0,
+  "error_count": 4,
+  "total_rows_downloaded": 516579,
+  "results": [
+    {
+      "entity_set": "FACT_NCD_AIR_POLLUTION",
+      "status": "downloaded",
+      "row_count": 22256,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\ncd\\FACT_NCD_AIR_POLLUTION.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\ncd\\FACT_NCD_AIR_POLLUTION"
+    },
+    {
+      "entity_set": "FACT_NCD_ALCOHOL",
+      "status": "downloaded",
+      "row_count": 2358,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\ncd\\FACT_NCD_ALCOHOL.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\ncd\\FACT_NCD_ALCOHOL"
+    },
+    {
+      "entity_set": "FACT_NCD_CANCER",
+      "status": "downloaded",
+      "row_count": 22359,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\ncd\\FACT_NCD_CANCER.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\ncd\\FACT_NCD_CANCER"
+    },
+    {
+      "entity_set": "FACT_NCD_CCS",
+      "status": "downloaded",
+      "row_count": 80122,
+      "chunk_count": 2,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\ncd\\FACT_NCD_CCS.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\ncd\\FACT_NCD_CCS"
+    },
+    {
+      "entity_set": "FACT_NCD_CXCA",
+      "status": "downloaded",
+      "row_count": 2602,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\ncd\\FACT_NCD_CXCA.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\ncd\\FACT_NCD_CXCA"
+    },
+    {
+      "entity_set": "FACT_NCD_PM",
+      "status": "downloaded",
+      "row_count": 4268,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\ncd\\FACT_NCD_PM.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\ncd\\FACT_NCD_PM"
+    },
+    {
+      "entity_set": "FACT_NCD_RISKFACTOR_BLOODPRESSURE",
+      "status": "downloaded",
+      "row_count": 18540,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\ncd\\FACT_NCD_RISKFACTOR_BLOODPRESSURE.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\ncd\\FACT_NCD_RISKFACTOR_BLOODPRESSURE"
+    },
+    {
+      "entity_set": "FACT_NCD_RISKFACTOR_CHOLESTEROL",
+      "status": "downloaded",
+      "row_count": 141804,
+      "chunk_count": 3,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\ncd\\FACT_NCD_RISKFACTOR_CHOLESTEROL.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\ncd\\FACT_NCD_RISKFACTOR_CHOLESTEROL"
+    },
+    {
+      "entity_set": "FACT_NCD_RISKFACTOR_HYPERTENSION",
+      "status": "downloaded",
+      "row_count": 155352,
+      "chunk_count": 4,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\ncd\\FACT_NCD_RISKFACTOR_HYPERTENSION.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\ncd\\FACT_NCD_RISKFACTOR_HYPERTENSION"
+    },
+    {
+      "entity_set": "FACT_NCD_RISKFACTOR_PHYSICALACTIVITY",
+      "status": "downloaded",
+      "row_count": 35523,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\ncd\\FACT_NCD_RISKFACTOR_PHYSICALACTIVITY.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\ncd\\FACT_NCD_RISKFACTOR_PHYSICALACTIVITY"
+    },
+    {
+      "entity_set": "FACT_NCD_RISKFACTOR_SALT",
+      "status": "downloaded",
+      "row_count": 21522,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\ncd\\FACT_NCD_RISKFACTOR_SALT.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\ncd\\FACT_NCD_RISKFACTOR_SALT"
+    },
+    {
+      "entity_set": "FACT_NCD_Tobacco",
+      "status": "downloaded",
+      "row_count": 9074,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\ncd\\FACT_NCD_Tobacco.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\ncd\\FACT_NCD_Tobacco"
+    },
+    {
+      "entity_set": "OH_CTRY_COMMITMENT_VIEW",
+      "status": "downloaded",
+      "row_count": 75,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\ncd\\OH_CTRY_COMMITMENT_VIEW.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\ncd\\OH_CTRY_COMMITMENT_VIEW"
+    },
+    {
+      "entity_set": "REF_AGEGROUP",
+      "status": "downloaded",
+      "row_count": 11,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\ncd\\REF_AGEGROUP.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\ncd\\REF_AGEGROUP"
+    },
+    {
+      "entity_set": "REF_COUNTRY",
+      "status": "downloaded",
+      "row_count": 257,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\ncd\\REF_COUNTRY.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\ncd\\REF_COUNTRY"
+    },
+    {
+      "entity_set": "REF_GHECAUSES",
+      "status": "downloaded",
+      "row_count": 37,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\ncd\\REF_GHECAUSES.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\ncd\\REF_GHECAUSES"
+    },
+    {
+      "entity_set": "REF_INDICATOR",
+      "status": "downloaded",
+      "row_count": 263,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\ncd\\REF_INDICATOR.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\ncd\\REF_INDICATOR"
+    },
+    {
+      "entity_set": "REF_PUBLISHSTATE",
+      "status": "downloaded",
+      "row_count": 2,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\ncd\\REF_PUBLISHSTATE.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\ncd\\REF_PUBLISHSTATE"
+    },
+    {
+      "entity_set": "REF_REGION",
+      "status": "downloaded",
+      "row_count": 7,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\ncd\\REF_REGION.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\ncd\\REF_REGION"
+    },
+    {
+      "entity_set": "REF_SEX",
+      "status": "downloaded",
+      "row_count": 3,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\ncd\\REF_SEX.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\ncd\\REF_SEX"
+    },
+    {
+      "entity_set": "REF_UNREGION",
+      "status": "downloaded",
+      "row_count": 10,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\ncd\\REF_UNREGION.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\ncd\\REF_UNREGION"
+    },
+    {
+      "entity_set": "REF_UNSDGREGION",
+      "status": "downloaded",
+      "row_count": 8,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\ncd\\REF_UNSDGREGION.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\ncd\\REF_UNSDGREGION"
+    },
+    {
+      "entity_set": "REF_WORLDBANKINCOMEGROUP",
+      "status": "downloaded",
+      "row_count": 7,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\ncd\\REF_WORLDBANKINCOMEGROUP.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\ncd\\REF_WORLDBANKINCOMEGROUP"
+    },
+    {
+      "entity_set": "REF_YEAR",
+      "status": "downloaded",
+      "row_count": 56,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\ncd\\REF_YEAR.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\ncd\\REF_YEAR"
+    },
+    {
+      "entity_set": "SIDS_V_CTRY_COMMITMENT",
+      "status": "downloaded",
+      "row_count": 63,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\ncd\\SIDS_V_CTRY_COMMITMENT.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\ncd\\SIDS_V_CTRY_COMMITMENT"
+    }
+  ],
+  "errors": [
+    {
+      "entity_set": "FACT_NCD_MORTALITY",
+      "error": "400 Client Error: Bad Request for url: https://xmart-api-public.who.int/NCD/FACT_NCD_MORTALITY?%24top=5000&%24skip=535000",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 106, in download_service\n    result = future.result(timeout=ENTITY_TIMEOUT_SECONDS)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 456, in result\n    return self.__get_result()\n           ~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\thread.py\", line 59, in run\n    result = self.fn(*self.args, **self.kwargs)\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 46, in download_one_entity\n    return client.download_entity_set(\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n    ...<4 lines>...\n        skip_existing=skip_existing,\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 224, in download_entity_set\n    for batch in self.iter_entity_batches(\n                 ~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n        page_size=page_size,\n        ^^^^^^^^^^^^^^^^^^^^\n        row_limit=row_limit,\n        ^^^^^^^^^^^^^^^^^^^^\n    ):\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 174, in iter_entity_batches\n    payload = get_json(\n        self.session,\n        f\"{self.profile.base_url}/{entity_set}\",\n        params={\"$top\": batch_size, \"$skip\": skip},\n    )\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\http.py\", line 33, in get_json\n    response.raise_for_status()\n    ~~~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\models.py\", line 1026, in raise_for_status\n    raise HTTPError(http_error_msg, response=self)\nrequests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://xmart-api-public.who.int/NCD/FACT_NCD_MORTALITY?%24top=5000&%24skip=535000\n"
+    },
+    {
+      "entity_set": "FACT_NCD_PROJ_TARGETS",
+      "error": "Expecting ',' delimiter: line 1 column 4129615 (char 4129614)",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\models.py\", line 976, in json\n    return complexjson.loads(self.text, **kwargs)\n           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ~~~~~~~~~~~~~~~~~~~~~~~^^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\decoder.py\", line 345, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\decoder.py\", line 361, in raw_decode\n    obj, end = self.scan_once(s, idx)\n               ~~~~~~~~~~~~~~^^^^^^^^\njson.decoder.JSONDecodeError: Expecting ',' delimiter: line 1 column 4129615 (char 4129614)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 106, in download_service\n    result = future.result(timeout=ENTITY_TIMEOUT_SECONDS)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 456, in result\n    return self.__get_result()\n           ~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\thread.py\", line 59, in run\n    result = self.fn(*self.args, **self.kwargs)\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 46, in download_one_entity\n    return client.download_entity_set(\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n    ...<4 lines>...\n        skip_existing=skip_existing,\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 224, in download_entity_set\n    for batch in self.iter_entity_batches(\n                 ~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n        page_size=page_size,\n        ^^^^^^^^^^^^^^^^^^^^\n        row_limit=row_limit,\n        ^^^^^^^^^^^^^^^^^^^^\n    ):\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 174, in iter_entity_batches\n    payload = get_json(\n        self.session,\n        f\"{self.profile.base_url}/{entity_set}\",\n        params={\"$top\": batch_size, \"$skip\": skip},\n    )\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\http.py\", line 34, in get_json\n    return response.json()\n           ~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\models.py\", line 980, in json\n    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)\nrequests.exceptions.JSONDecodeError: Expecting ',' delimiter: line 1 column 4129615 (char 4129614)\n"
+    },
+    {
+      "entity_set": "FACT_NCD_RISKFACTOR_BLOODGLUCOSE",
+      "error": "400 Client Error: Bad Request for url: https://xmart-api-public.who.int/NCD/FACT_NCD_RISKFACTOR_BLOODGLUCOSE?%24top=5000&%24skip=60000",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 106, in download_service\n    result = future.result(timeout=ENTITY_TIMEOUT_SECONDS)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 456, in result\n    return self.__get_result()\n           ~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\thread.py\", line 59, in run\n    result = self.fn(*self.args, **self.kwargs)\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 46, in download_one_entity\n    return client.download_entity_set(\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n    ...<4 lines>...\n        skip_existing=skip_existing,\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 224, in download_entity_set\n    for batch in self.iter_entity_batches(\n                 ~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n        page_size=page_size,\n        ^^^^^^^^^^^^^^^^^^^^\n        row_limit=row_limit,\n        ^^^^^^^^^^^^^^^^^^^^\n    ):\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 174, in iter_entity_batches\n    payload = get_json(\n        self.session,\n        f\"{self.profile.base_url}/{entity_set}\",\n        params={\"$top\": batch_size, \"$skip\": skip},\n    )\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\http.py\", line 33, in get_json\n    response.raise_for_status()\n    ~~~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\models.py\", line 1026, in raise_for_status\n    raise HTTPError(http_error_msg, response=self)\nrequests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://xmart-api-public.who.int/NCD/FACT_NCD_RISKFACTOR_BLOODGLUCOSE?%24top=5000&%24skip=60000\n"
+    },
+    {
+      "entity_set": "FACT_NCD_RISKFACTOR_BMI",
+      "error": "400 Client Error: Bad Request for url: https://xmart-api-public.who.int/NCD/FACT_NCD_RISKFACTOR_BMI?%24top=5000&%24skip=15000",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 106, in download_service\n    result = future.result(timeout=ENTITY_TIMEOUT_SECONDS)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 456, in result\n    return self.__get_result()\n           ~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\thread.py\", line 59, in run\n    result = self.fn(*self.args, **self.kwargs)\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 46, in download_one_entity\n    return client.download_entity_set(\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n    ...<4 lines>...\n        skip_existing=skip_existing,\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 224, in download_entity_set\n    for batch in self.iter_entity_batches(\n                 ~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n        page_size=page_size,\n        ^^^^^^^^^^^^^^^^^^^^\n        row_limit=row_limit,\n        ^^^^^^^^^^^^^^^^^^^^\n    ):\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 174, in iter_entity_batches\n    payload = get_json(\n        self.session,\n        f\"{self.profile.base_url}/{entity_set}\",\n        params={\"$top\": batch_size, \"$skip\": skip},\n    )\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\http.py\", line 33, in get_json\n    response.raise_for_status()\n    ~~~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\models.py\", line 1026, in raise_for_status\n    raise HTTPError(http_error_msg, response=self)\nrequests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://xmart-api-public.who.int/NCD/FACT_NCD_RISKFACTOR_BMI?%24top=5000&%24skip=15000\n"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+
+======================================================================
+[NTD] Starting download of 1 entity sets
+[NTD] Scope: all | Page size: 5000 | Skip existing: False
+[NTD] Entity timeout: 1800s
+[NTD] Started at: 2026-04-07T08:42:01.713892+00:00
+======================================================================
+
+[ntd] [1/1] V_FACT_WHO_REGISTRY ...
+[ntd] [1/1] V_FACT_WHO_REGISTRY -> downloaded | 484 rows | 1 chunks | 6.4s | cumulative: 484 rows
+
+======================================================================
+[NTD] COMPLETE
+  Downloaded: 1 entity sets (484 rows)
+  Skipped:    0
+  Errors:     0
+  Duration:   0.1 minutes
+  Manifest:   C:\Projects\who-data-lakehouse\manifests\xmart_bulk_ntd_20260407T084208Z.json
+======================================================================
+
+
+======================================================================
+ALL SERVICES COMPLETE
+  ntd: 1 downloaded, 0 errors, 484 rows, 0.1 min
+======================================================================

@@ -1,0 +1,8 @@
+{
+  "source": "ghed",
+  "run_at": "20260407T072118Z",
+  "download_count": 1,
+  "downloaded_files": {
+    "GHED_data.XLSX": "C:\\Projects\\who-data-lakehouse\\data\\raw\\ghed\\GHED_data.XLSX"
+  }
+}

@@ -1,0 +1,21 @@
+[     261ms] [LOG] JQMIGRATE: Migrate is installed, version 3.5.2 @ https://data.who.int/ScriptResource.axd?d=74FHISOx3fOPKwLxL0RMYsy5CZ1ciqpScg89mHaoCwqm0f3BwT2yIdaPnYAdmSwbYEK1ZSsInvrc-K4nfMcj996OJpQwEQ_jiE7tNvBDDNTsWHMs1V-SmrapMyE1jEszh3aIe8dDrVFevv5g4Az8_4JW2NKXOBG4ECPm9aUN8Tqvcq1P0&t=19e1df0d:1
+[     845ms] [LOG] Loading dashboards @ https://data.who.int/dashboards/dashboards:276
+[    1015ms] [LOG] Loading dashboard AMR @ https://data.who.int/dashboards/dashboards:247
+[    1016ms] [LOG] Loading dashboard Country Presence @ https://data.who.int/dashboards/dashboards:247
+[    1016ms] [LOG] Loading dashboard COVID-19 @ https://data.who.int/dashboards/dashboards:247
+[    1017ms] [LOG] Loading dashboard GDHM @ https://data.who.int/dashboards/dashboards:247
+[    1018ms] [LOG] Loading dashboard Global Progress @ https://data.who.int/dashboards/dashboards:247
+[    1019ms] [LOG] Loading dashboard Hepatitis @ https://data.who.int/dashboards/dashboards:247
+[    1020ms] [LOG] Loading dashboard IHS @ https://data.who.int/dashboards/dashboards:247
+[    1021ms] [LOG] Loading dashboard IPC @ https://data.who.int/dashboards/dashboards:247
+[    1023ms] [LOG] Loading dashboard Medicines & Health Products @ https://data.who.int/dashboards/dashboards:247
+[    1024ms] [LOG] Loading dashboard MERS @ https://data.who.int/dashboards/dashboards:247
+[    1025ms] [LOG] Loading dashboard Nutrition @ https://data.who.int/dashboards/dashboards:247
+[    1026ms] [LOG] Loading dashboard Oral Health @ https://data.who.int/dashboards/dashboards:247
+[    1027ms] [LOG] Loading dashboard STI @ https://data.who.int/dashboards/dashboards:247
+[    1028ms] [LOG] Loading dashboard STI Prevalence Atlas @ https://data.who.int/dashboards/dashboards:247
+[    1028ms] [LOG] Loading dashboard Tuberculosis @ https://data.who.int/dashboards/dashboards:247
+[    1029ms] [LOG] Loading dashboard UCN @ https://data.who.int/dashboards/dashboards:247
+[    2223ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://heatmaps.monsido.com/v1/settings/e99hzF7KI5XA-7uMxjwKgg.json:0
+[    2256ms] Uncaught Error: Heatmap Settings not available
+    at o.onload (https://heatmaps.monsido.com/v1/heatmaps.js:0:1935)

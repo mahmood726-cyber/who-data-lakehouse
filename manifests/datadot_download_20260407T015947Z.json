@@ -1,0 +1,12 @@
+{
+  "source": "datadot",
+  "run_at": "20260407T015947Z",
+  "download_count": 3,
+  "skipped_count": 3,
+  "error_count": 0,
+  "downloaded_files": {
+    "D6176E2": "C:\\Projects\\who-data-lakehouse\\data\\raw\\datadot\\exports\\D6176E2.csv",
+    "E2FC6D7": "C:\\Projects\\who-data-lakehouse\\data\\raw\\datadot\\exports\\E2FC6D7.csv",
+    "5DD9606": "C:\\Projects\\who-data-lakehouse\\data\\raw\\datadot\\exports\\5DD9606.csv"
+  }
+}

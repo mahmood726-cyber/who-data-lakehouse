@@ -1,0 +1,23 @@
+{
+  "source": "xmart",
+  "service": "ntd",
+  "scope": "all",
+  "started_at": "2026-04-07T08:42:01.713892+00:00",
+  "finished_at": "2026-04-07T08:42:08.110241+00:00",
+  "duration_minutes": 0.1,
+  "entity_set_count": 1,
+  "downloaded_count": 1,
+  "skipped_count": 0,
+  "error_count": 0,
+  "total_rows_downloaded": 484,
+  "results": [
+    {
+      "entity_set": "V_FACT_WHO_REGISTRY",
+      "status": "downloaded",
+      "row_count": 484,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\ntd\\V_FACT_WHO_REGISTRY.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\ntd\\V_FACT_WHO_REGISTRY"
+    }
+  ]
+}

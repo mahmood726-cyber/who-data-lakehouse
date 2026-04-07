@@ -1,0 +1,93 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e3] [cursor=pointer]:
+    - /url: "#main"
+  - navigation [ref=e7]:
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - link "WHO Logo" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img "WHO Logo" [ref=e11]
+        - generic [ref=e12]:
+          - generic [ref=e14]: World Health Organization
+          - generic [ref=e15]: Data
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - list [ref=e18]:
+            - listitem [ref=e19]:
+              - link "WHO Global" [ref=e20] [cursor=pointer]:
+                - /url: https://www.who.int/
+                - text: WHO Global
+          - list [ref=e21]:
+            - listitem [ref=e22]:
+              - button "Language" [ref=e23] [cursor=pointer]
+        - list [ref=e25]:
+          - listitem [ref=e26]:
+            - link "Indicators" [ref=e27] [cursor=pointer]:
+              - /url: /indicators
+          - listitem [ref=e28]:
+            - link "Countries" [ref=e29] [cursor=pointer]:
+              - /url: /countries
+          - listitem [ref=e30]:
+            - link "Dashboards" [ref=e31] [cursor=pointer]:
+              - /url: /dashboards/dashboards
+          - listitem [ref=e32]:
+            - link "About" [ref=e33] [cursor=pointer]:
+              - /url: /about
+  - main [ref=e34]:
+    - heading "Dashboards" [level=1] [ref=e42]
+  - contentinfo [ref=e48]:
+    - generic [ref=e53]:
+      - generic [ref=e54]:
+        - heading "Datadot" [level=3] [ref=e55]
+        - list [ref=e56]:
+          - listitem [ref=e57]:
+            - link "Home" [ref=e58] [cursor=pointer]:
+              - /url: /redirect-pages/footer/datadot/home
+          - listitem [ref=e59]:
+            - link "Indicators" [ref=e60] [cursor=pointer]:
+              - /url: /redirect-pages/footer/datadot/indicators
+          - listitem [ref=e61]:
+            - link "Countries" [ref=e62] [cursor=pointer]:
+              - /url: /redirect-pages/footer/datadot/products
+          - listitem [ref=e63]:
+            - link "About" [ref=e64] [cursor=pointer]:
+              - /url: /redirect-pages/footer/datadot/about
+      - generic [ref=e65]:
+        - heading "More data from WHO" [level=3] [ref=e66]
+        - list [ref=e67]:
+          - listitem [ref=e68]:
+            - link "who.int/data" [ref=e69] [cursor=pointer]:
+              - /url: /redirect-pages/footer/more-data/who.int-data
+          - listitem [ref=e70]:
+            - link "Global Health Estimates" [ref=e71] [cursor=pointer]:
+              - /url: /redirect-pages/footer/more-data/triple-billion-dashboard
+          - listitem [ref=e72]:
+            - link "Health Inequality Monitor" [ref=e73] [cursor=pointer]:
+              - /url: /redirect-pages/footer/more-data/ddi
+          - listitem [ref=e74]:
+            - link "COVID-19 dashboard" [ref=e75] [cursor=pointer]:
+              - /url: /redirect-pages/footer/more-data/covid-19-dashboard
+      - generic [ref=e76]:
+        - heading "Learn more" [level=3] [ref=e77]
+        - list [ref=e78]:
+          - listitem [ref=e79]:
+            - link "WHO data principles" [ref=e80] [cursor=pointer]:
+              - /url: /redirect-pages/footer/learn-more/data-principles
+          - listitem [ref=e81]:
+            - link "WHO data policy" [ref=e82] [cursor=pointer]:
+              - /url: /redirect-pages/footer/learn-more/who-data-policy
+          - listitem [ref=e83]:
+            - link "Terms and conditions" [ref=e84] [cursor=pointer]:
+              - /url: /redirect-pages/footer/learn-more/terms-and-conditions
+          - listitem [ref=e85]:
+            - link "Language translations" [ref=e86] [cursor=pointer]:
+              - /url: /redirect-pages/footer/learn-more/language-translations
+    - generic [ref=e90]:
+      - link "WHO Logo" [ref=e91] [cursor=pointer]:
+        - /url: /
+        - img "WHO Logo" [ref=e92]
+      - list [ref=e93]:
+        - listitem [ref=e94]:
+          - link "Privacy legal notice" [ref=e95] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e96]: ©2024 WHO

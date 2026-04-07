@@ -1,0 +1,151 @@
+{
+  "source": "xmart",
+  "service": "mncah",
+  "scope": "all",
+  "run_at": "20260407T074833Z",
+  "entity_set_count": 80,
+  "known_row_total": 41305890,
+  "unknown_count_rows": 9,
+  "top_entity_sets": [
+    {
+      "service": "mncah",
+      "entity_set": "EXPORT_FACT_DATA_MCA_TABLE",
+      "kind": "EntitySet",
+      "url": "EXPORT_FACT_DATA_MCA_TABLE",
+      "row_count": 9788154.0
+    },
+    {
+      "service": "mncah",
+      "entity_set": "EXPORT_FACT_DATA_MCA_VIEW",
+      "kind": "EntitySet",
+      "url": "EXPORT_FACT_DATA_MCA_VIEW",
+      "row_count": 9788154.0
+    },
+    {
+      "service": "mncah",
+      "entity_set": "FACT_DATA_MCA",
+      "kind": "EntitySet",
+      "url": "FACT_DATA_MCA",
+      "row_count": 9788154.0
+    },
+    {
+      "service": "mncah",
+      "entity_set": "MCA_FACT_DATA",
+      "kind": "EntitySet",
+      "url": "MCA_FACT_DATA",
+      "row_count": 8374638.0
+    },
+    {
+      "service": "mncah",
+      "entity_set": "MCA_FACT_DATA_AGGREGATED",
+      "kind": "EntitySet",
+      "url": "MCA_FACT_DATA_AGGREGATED",
+      "row_count": 1413516.0
+    },
+    {
+      "service": "mncah",
+      "entity_set": "QED_Common_Indicator_Viz_Table",
+      "kind": "EntitySet",
+      "url": "QED_Common_Indicator_Viz_Table",
+      "row_count": 857737.0
+    },
+    {
+      "service": "mncah",
+      "entity_set": "QED_COMMON_INDICATOR_STAGING_VIEW_MONTH",
+      "kind": "EntitySet",
+      "url": "QED_COMMON_INDICATOR_STAGING_VIEW_MONTH",
+      "row_count": 583512.0
+    },
+    {
+      "service": "mncah",
+      "entity_set": "QED_Common_Indicator",
+      "kind": "EntitySet",
+      "url": "QED_Common_Indicator",
+      "row_count": 365251.0
+    },
+    {
+      "service": "mncah",
+      "entity_set": "QED_COMMON_INDICATOR_STAGING_VIEW_QUARTER",
+      "kind": "EntitySet",
+      "url": "QED_COMMON_INDICATOR_STAGING_VIEW_QUARTER",
+      "row_count": 210588.0
+    },
+    {
+      "service": "mncah",
+      "entity_set": "QED_COMMON_INDICATOR_STAGING_VIEW_YEAR",
+      "kind": "EntitySet",
+      "url": "QED_COMMON_INDICATOR_STAGING_VIEW_YEAR",
+      "row_count": 65774.0
+    },
+    {
+      "service": "mncah",
+      "entity_set": "EXPORT_DIM_VALUES_TABLE",
+      "kind": "EntitySet",
+      "url": "EXPORT_DIM_VALUES_TABLE",
+      "row_count": 56776.0
+    },
+    {
+      "service": "mncah",
+      "entity_set": "EXPORT_DIM_PER_IND_TABLE",
+      "kind": "EntitySet",
+      "url": "EXPORT_DIM_PER_IND_TABLE",
+      "row_count": 2510.0
+    },
+    {
+      "service": "mncah",
+      "entity_set": "BD_EUROCAT",
+      "kind": "EntitySet",
+      "url": "BD_EUROCAT",
+      "row_count": 2484.0
+    },
+    {
+      "service": "mncah",
+      "entity_set": "PS_FACT_OTHER_NON_MCA",
+      "kind": "EntitySet",
+      "url": "PS_FACT_OTHER_NON_MCA",
+      "row_count": 1819.0
+    },
+    {
+      "service": "mncah",
+      "entity_set": "QED_Measurment",
+      "kind": "EntitySet",
+      "url": "QED_Measurment",
+      "row_count": 1084.0
+    },
+    {
+      "service": "mncah",
+      "entity_set": "QED_PROJECTMEASUREMENT_VIEW",
+      "kind": "EntitySet",
+      "url": "QED_PROJECTMEASUREMENT_VIEW",
+      "row_count": 1084.0
+    },
+    {
+      "service": "mncah",
+      "entity_set": "EXPORT_FACTFIELD_PER_IND_TABLE",
+      "kind": "EntitySet",
+      "url": "EXPORT_FACTFIELD_PER_IND_TABLE",
+      "row_count": 651.0
+    },
+    {
+      "service": "mncah",
+      "entity_set": "REF_Year",
+      "kind": "EntitySet",
+      "url": "REF_Year",
+      "row_count": 437.0
+    },
+    {
+      "service": "mncah",
+      "entity_set": "REF_Answerset_Answers",
+      "kind": "EntitySet",
+      "url": "REF_Answerset_Answers",
+      "row_count": 359.0
+    },
+    {
+      "service": "mncah",
+      "entity_set": "REF_Indicators",
+      "kind": "EntitySet",
+      "url": "REF_Indicators",
+      "row_count": 347.0
+    }
+  ]
+}

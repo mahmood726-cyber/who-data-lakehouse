@@ -1,0 +1,70 @@
+{
+  "run_at": "20260407T015946Z",
+  "gho_metadata": {
+    "source": "gho",
+    "run_at": "20260407T015934Z",
+    "indicator_count": 3057,
+    "dimension_count": 194,
+    "dimension_value_count": 20697,
+    "manifest_path": "C:\\Projects\\who-data-lakehouse\\manifests\\gho_metadata_20260407T015935Z.json"
+  },
+  "datadot_catalog": {
+    "source": "datadot",
+    "run_at": "20260407T015936Z",
+    "provider": "dynamicProvider358",
+    "row_count": 10,
+    "exportable_rows": 7,
+    "manifest_path": "C:\\Projects\\who-data-lakehouse\\manifests\\datadot_catalog_20260407T015936Z.json"
+  },
+  "datadot_download": {
+    "source": "datadot",
+    "run_at": "20260407T015947Z",
+    "download_count": 3,
+    "skipped_count": 3,
+    "error_count": 0,
+    "downloaded_files": {
+      "D6176E2": "C:\\Projects\\who-data-lakehouse\\data\\raw\\datadot\\exports\\D6176E2.csv",
+      "E2FC6D7": "C:\\Projects\\who-data-lakehouse\\data\\raw\\datadot\\exports\\E2FC6D7.csv",
+      "5DD9606": "C:\\Projects\\who-data-lakehouse\\data\\raw\\datadot\\exports\\5DD9606.csv"
+    },
+    "manifest_path": "C:\\Projects\\who-data-lakehouse\\manifests\\datadot_download_20260407T015947Z.json"
+  },
+  "hidr_reference": {
+    "source": "hidr",
+    "run_at": "20260407T015938Z",
+    "downloaded_files": {
+      "dataset_ids": "C:\\Projects\\who-data-lakehouse\\data\\reference\\hidr\\dataset_ids.csv",
+      "dataset_variables": "C:\\Projects\\who-data-lakehouse\\data\\reference\\hidr\\dataset_variables.xlsx",
+      "odata_feed_urls": "C:\\Projects\\who-data-lakehouse\\data\\reference\\hidr\\odata_feed_urls.xlsx"
+    },
+    "manifest_path": "C:\\Projects\\who-data-lakehouse\\manifests\\hidr_reference_20260407T015938Z.json"
+  },
+  "hidr_download": {
+    "source": "hidr",
+    "run_at": "20260407T015944Z",
+    "dataset_count": 1,
+    "skipped_count": 0,
+    "error_count": 0,
+    "downloaded_files": {
+      "rep_sdg": "C:\\Projects\\who-data-lakehouse\\data\\raw\\hidr\\datasets\\rep_sdg.xlsx"
+    },
+    "manifest_path": "C:\\Projects\\who-data-lakehouse\\manifests\\hidr_download_20260407T015944Z.json"
+  },
+  "gho_facts": {
+    "source": "gho",
+    "run_at": "20260407T015946Z",
+    "indicator_count": 1,
+    "downloaded_count": 1,
+    "skipped_count": 0,
+    "error_count": 0,
+    "results": [
+      {
+        "indicator_code": "AIR_10",
+        "status": "downloaded",
+        "observation_count": 20,
+        "dimension_membership_count": 80
+      }
+    ],
+    "manifest_path": "C:\\Projects\\who-data-lakehouse\\manifests\\gho_facts_20260407T015946Z.json"
+  }
+}

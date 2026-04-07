@@ -1,0 +1,10 @@
+{
+  "source": "hidr",
+  "run_at": "20260407T015944Z",
+  "dataset_count": 1,
+  "skipped_count": 0,
+  "error_count": 0,
+  "downloaded_files": {
+    "rep_sdg": "C:\\Projects\\who-data-lakehouse\\data\\raw\\hidr\\datasets\\rep_sdg.xlsx"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "run_at": "20260406T192907Z",
+  "gho_metadata": {
+    "source": "gho",
+    "run_at": "20260406T192855Z",
+    "indicator_count": 3057,
+    "dimension_count": 194,
+    "dimension_value_count": 20697,
+    "manifest_path": "C:\\Projects\\who-data-lakehouse\\manifests\\gho_metadata_20260406T192856Z.json"
+  },
+  "datadot_catalog": {
+    "source": "datadot",
+    "run_at": "20260406T192856Z",
+    "provider": "dynamicProvider358",
+    "row_count": 50,
+    "exportable_rows": 50,
+    "manifest_path": "C:\\Projects\\who-data-lakehouse\\manifests\\datadot_catalog_20260406T192856Z.json"
+  },
+  "hidr_reference": {
+    "source": "hidr",
+    "run_at": "20260406T192858Z",
+    "downloaded_files": {
+      "dataset_ids": "C:\\Projects\\who-data-lakehouse\\data\\reference\\hidr\\dataset_ids.csv",
+      "dataset_variables": "C:\\Projects\\who-data-lakehouse\\data\\reference\\hidr\\dataset_variables.xlsx",
+      "odata_feed_urls": "C:\\Projects\\who-data-lakehouse\\data\\reference\\hidr\\odata_feed_urls.xlsx"
+    },
+    "manifest_path": "C:\\Projects\\who-data-lakehouse\\manifests\\hidr_reference_20260406T192858Z.json"
+  },
+  "hidr_download": {
+    "source": "hidr",
+    "run_at": "20260406T192905Z",
+    "dataset_count": 1,
+    "downloaded_files": {
+      "rep_sdg": "C:\\Projects\\who-data-lakehouse\\data\\raw\\hidr\\datasets\\rep_sdg.xlsx"
+    },
+    "manifest_path": "C:\\Projects\\who-data-lakehouse\\manifests\\hidr_download_20260406T192905Z.json"
+  },
+  "gho_facts": {
+    "source": "gho",
+    "run_at": "20260406T192907Z",
+    "indicator_count": 2,
+    "results": [
+      {
+        "indicator_code": "AIR_10",
+        "observation_count": 100,
+        "dimension_membership_count": 400
+      },
+      {
+        "indicator_code": "AIR_11",
+        "observation_count": 100,
+        "dimension_membership_count": 400
+      }
+    ],
+    "manifest_path": "C:\\Projects\\who-data-lakehouse\\manifests\\gho_facts_20260406T192907Z.json"
+  }
+}

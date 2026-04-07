@@ -1,0 +1,529 @@
+{
+  "source": "xmart",
+  "service": "mncah",
+  "scope": "all",
+  "started_at": "2026-04-07T08:17:10.423049+00:00",
+  "finished_at": "2026-04-07T10:07:38.888936+00:00",
+  "duration_minutes": 110.5,
+  "entity_set_count": 59,
+  "downloaded_count": 57,
+  "skipped_count": 2,
+  "error_count": 8,
+  "total_rows_downloaded": 921758,
+  "results": [
+    {
+      "entity_set": "BD_EUROCAT",
+      "status": "skipped",
+      "row_count": null,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\BD_EUROCAT.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\BD_EUROCAT"
+    },
+    {
+      "entity_set": "BD_FACT",
+      "status": "downloaded",
+      "row_count": 0,
+      "chunk_count": 0,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\BD_FACT.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\BD_FACT"
+    },
+    {
+      "entity_set": "BD_STUDY",
+      "status": "downloaded",
+      "row_count": 0,
+      "chunk_count": 0,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\BD_STUDY.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\BD_STUDY"
+    },
+    {
+      "entity_set": "EXPORT_DIM_PER_IND_TABLE",
+      "status": "skipped",
+      "row_count": null,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\EXPORT_DIM_PER_IND_TABLE.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\EXPORT_DIM_PER_IND_TABLE"
+    },
+    {
+      "entity_set": "EXPORT_DIM_VALUES_TABLE",
+      "status": "downloaded",
+      "row_count": 56776,
+      "chunk_count": 2,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\EXPORT_DIM_VALUES_TABLE.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\EXPORT_DIM_VALUES_TABLE"
+    },
+    {
+      "entity_set": "EXPORT_FACTFIELD_PER_IND_TABLE",
+      "status": "downloaded",
+      "row_count": 651,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\EXPORT_FACTFIELD_PER_IND_TABLE.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\EXPORT_FACTFIELD_PER_IND_TABLE"
+    },
+    {
+      "entity_set": "FACT_DATA_GPW",
+      "status": "downloaded",
+      "row_count": 8,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\FACT_DATA_GPW.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\FACT_DATA_GPW"
+    },
+    {
+      "entity_set": "FACT_DATA_MCA_DIMENSIONS_NOTNULL_Table",
+      "status": "downloaded",
+      "row_count": 0,
+      "chunk_count": 0,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\FACT_DATA_MCA_DIMENSIONS_NOTNULL_Table.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\FACT_DATA_MCA_DIMENSIONS_NOTNULL_Table"
+    },
+    {
+      "entity_set": "PS_FACT_OTHER_NON_MCA",
+      "status": "downloaded",
+      "row_count": 1819,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\PS_FACT_OTHER_NON_MCA.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\PS_FACT_OTHER_NON_MCA"
+    },
+    {
+      "entity_set": "PS_THEME_TOPIC_INDICATOR_TABLE",
+      "status": "downloaded",
+      "row_count": 120,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\PS_THEME_TOPIC_INDICATOR_TABLE.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\PS_THEME_TOPIC_INDICATOR_TABLE"
+    },
+    {
+      "entity_set": "QED_Common_Indicator_Viz_Table",
+      "status": "downloaded",
+      "row_count": 857737,
+      "chunk_count": 18,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\QED_Common_Indicator_Viz_Table.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\QED_Common_Indicator_Viz_Table"
+    },
+    {
+      "entity_set": "QED_Indicator",
+      "status": "downloaded",
+      "row_count": 114,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\QED_Indicator.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\QED_Indicator"
+    },
+    {
+      "entity_set": "QED_Measurment",
+      "status": "downloaded",
+      "row_count": 1084,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\QED_Measurment.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\QED_Measurment"
+    },
+    {
+      "entity_set": "QED_Project",
+      "status": "downloaded",
+      "row_count": 91,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\QED_Project.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\QED_Project"
+    },
+    {
+      "entity_set": "REF_Agegroup",
+      "status": "downloaded",
+      "row_count": 166,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\REF_Agegroup.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\REF_Agegroup"
+    },
+    {
+      "entity_set": "REF_Answers",
+      "status": "downloaded",
+      "row_count": 226,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\REF_Answers.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\REF_Answers"
+    },
+    {
+      "entity_set": "REF_Answerset",
+      "status": "downloaded",
+      "row_count": 58,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\REF_Answerset.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\REF_Answerset"
+    },
+    {
+      "entity_set": "REF_Answerset_Answers",
+      "status": "downloaded",
+      "row_count": 359,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\REF_Answerset_Answers.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\REF_Answerset_Answers"
+    },
+    {
+      "entity_set": "REF_CAUSE",
+      "status": "downloaded",
+      "row_count": 306,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\REF_CAUSE.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\REF_CAUSE"
+    },
+    {
+      "entity_set": "REF_CauseENVCAUSE",
+      "status": "downloaded",
+      "row_count": 73,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\REF_CauseENVCAUSE.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\REF_CauseENVCAUSE"
+    },
+    {
+      "entity_set": "REF_CauseGHE",
+      "status": "downloaded",
+      "row_count": 217,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\REF_CauseGHE.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\REF_CauseGHE"
+    },
+    {
+      "entity_set": "REF_CauseGHEChild",
+      "status": "downloaded",
+      "row_count": 16,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\REF_CauseGHEChild.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\REF_CauseGHEChild"
+    },
+    {
+      "entity_set": "REF_Country",
+      "status": "downloaded",
+      "row_count": 251,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\REF_Country.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\REF_Country"
+    },
+    {
+      "entity_set": "REF_DISTRICT",
+      "status": "downloaded",
+      "row_count": 93,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\REF_DISTRICT.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\REF_DISTRICT"
+    },
+    {
+      "entity_set": "REF_FACILITY",
+      "status": "downloaded",
+      "row_count": 318,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\REF_FACILITY.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\REF_FACILITY"
+    },
+    {
+      "entity_set": "REF_FREQUENCY",
+      "status": "downloaded",
+      "row_count": 6,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\REF_FREQUENCY.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\REF_FREQUENCY"
+    },
+    {
+      "entity_set": "REF_FUNDINGSOURCE",
+      "status": "downloaded",
+      "row_count": 6,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\REF_FUNDINGSOURCE.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\REF_FUNDINGSOURCE"
+    },
+    {
+      "entity_set": "REF_Global",
+      "status": "downloaded",
+      "row_count": 1,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\REF_Global.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\REF_Global"
+    },
+    {
+      "entity_set": "REF_IDEATESTMETHOD",
+      "status": "downloaded",
+      "row_count": 7,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\REF_IDEATESTMETHOD.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\REF_IDEATESTMETHOD"
+    },
+    {
+      "entity_set": "REF_IMPLEMENTATIONLEVEL",
+      "status": "downloaded",
+      "row_count": 6,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\REF_IMPLEMENTATIONLEVEL.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\REF_IMPLEMENTATIONLEVEL"
+    },
+    {
+      "entity_set": "REF_IMPSanitation",
+      "status": "downloaded",
+      "row_count": 7,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\REF_IMPSanitation.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\REF_IMPSanitation"
+    },
+    {
+      "entity_set": "REF_IMPWater",
+      "status": "downloaded",
+      "row_count": 6,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\REF_IMPWater.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\REF_IMPWater"
+    },
+    {
+      "entity_set": "REF_INTERVENTIONTYPE",
+      "status": "downloaded",
+      "row_count": 26,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\REF_INTERVENTIONTYPE.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\REF_INTERVENTIONTYPE"
+    },
+    {
+      "entity_set": "REF_Indicators",
+      "status": "downloaded",
+      "row_count": 347,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\REF_Indicators.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\REF_Indicators"
+    },
+    {
+      "entity_set": "REF_LivingArrangements",
+      "status": "downloaded",
+      "row_count": 4,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\REF_LivingArrangements.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\REF_LivingArrangements"
+    },
+    {
+      "entity_set": "REF_MEASDEF",
+      "status": "downloaded",
+      "row_count": 26,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\REF_MEASDEF.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\REF_MEASDEF"
+    },
+    {
+      "entity_set": "REF_MotherEducation",
+      "status": "downloaded",
+      "row_count": 7,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\REF_MotherEducation.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\REF_MotherEducation"
+    },
+    {
+      "entity_set": "REF_ProficiencyLevel",
+      "status": "downloaded",
+      "row_count": 10,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\REF_ProficiencyLevel.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\REF_ProficiencyLevel"
+    },
+    {
+      "entity_set": "REF_QIMETHOD",
+      "status": "downloaded",
+      "row_count": 5,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\REF_QIMETHOD.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\REF_QIMETHOD"
+    },
+    {
+      "entity_set": "REF_QOCStandard",
+      "status": "downloaded",
+      "row_count": 27,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\REF_QOCStandard.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\REF_QOCStandard"
+    },
+    {
+      "entity_set": "REF_REGION_QED",
+      "status": "downloaded",
+      "row_count": 54,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\REF_REGION_QED.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\REF_REGION_QED"
+    },
+    {
+      "entity_set": "REF_Region",
+      "status": "downloaded",
+      "row_count": 7,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\REF_Region.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\REF_Region"
+    },
+    {
+      "entity_set": "REF_ResideLTA",
+      "status": "downloaded",
+      "row_count": 2,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\REF_ResideLTA.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\REF_ResideLTA"
+    },
+    {
+      "entity_set": "REF_ResidenceArea",
+      "status": "downloaded",
+      "row_count": 3,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\REF_ResidenceArea.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\REF_ResidenceArea"
+    },
+    {
+      "entity_set": "REF_SABDefinition",
+      "status": "downloaded",
+      "row_count": 6,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\REF_SABDefinition.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\REF_SABDefinition"
+    },
+    {
+      "entity_set": "REF_SDGRegion",
+      "status": "downloaded",
+      "row_count": 43,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\REF_SDGRegion.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\REF_SDGRegion"
+    },
+    {
+      "entity_set": "REF_Severity",
+      "status": "downloaded",
+      "row_count": 19,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\REF_Severity.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\REF_Severity"
+    },
+    {
+      "entity_set": "REF_SeverityHearing",
+      "status": "downloaded",
+      "row_count": 7,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\REF_SeverityHearing.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\REF_SeverityHearing"
+    },
+    {
+      "entity_set": "REF_SeverityVision",
+      "status": "downloaded",
+      "row_count": 6,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\REF_SeverityVision.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\REF_SeverityVision"
+    },
+    {
+      "entity_set": "REF_Sex",
+      "status": "downloaded",
+      "row_count": 3,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\REF_Sex.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\REF_Sex"
+    },
+    {
+      "entity_set": "REF_UNITOFMEASUREMENT",
+      "status": "downloaded",
+      "row_count": 6,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\REF_UNITOFMEASUREMENT.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\REF_UNITOFMEASUREMENT"
+    },
+    {
+      "entity_set": "REF_UNSDM49",
+      "status": "downloaded",
+      "row_count": 31,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\REF_UNSDM49.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\REF_UNSDM49"
+    },
+    {
+      "entity_set": "REF_VariableCategory_QED",
+      "status": "downloaded",
+      "row_count": 6,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\REF_VariableCategory_QED.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\REF_VariableCategory_QED"
+    },
+    {
+      "entity_set": "REF_Variables_QED",
+      "status": "downloaded",
+      "row_count": 127,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\REF_Variables_QED.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\REF_Variables_QED"
+    },
+    {
+      "entity_set": "REF_Variant",
+      "status": "downloaded",
+      "row_count": 10,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\REF_Variant.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\REF_Variant"
+    },
+    {
+      "entity_set": "REF_WealthQuintile",
+      "status": "downloaded",
+      "row_count": 6,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\REF_WealthQuintile.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\REF_WealthQuintile"
+    },
+    {
+      "entity_set": "REF_WorldBankIncomeGRP",
+      "status": "downloaded",
+      "row_count": 9,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\REF_WorldBankIncomeGRP.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\REF_WorldBankIncomeGRP"
+    },
+    {
+      "entity_set": "REF_YESNO",
+      "status": "downloaded",
+      "row_count": 2,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\REF_YESNO.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\REF_YESNO"
+    },
+    {
+      "entity_set": "REF_Year",
+      "status": "downloaded",
+      "row_count": 437,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\mncah\\REF_Year.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\mncah\\REF_Year"
+    }
+  ],
+  "errors": [
+    {
+      "entity_set": "EXPORT_FACT_DATA_MCA_TABLE",
+      "error": "Expecting value: line 1 column 2 (char 1)",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\models.py\", line 976, in json\n    return complexjson.loads(self.text, **kwargs)\n           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ~~~~~~~~~~~~~~~~~~~~~~~^^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\decoder.py\", line 345, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\decoder.py\", line 363, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 2 (char 1)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 106, in download_service\n    result = future.result(timeout=ENTITY_TIMEOUT_SECONDS)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 456, in result\n    return self.__get_result()\n           ~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\thread.py\", line 59, in run\n    result = self.fn(*self.args, **self.kwargs)\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 46, in download_one_entity\n    return client.download_entity_set(\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n    ...<4 lines>...\n        skip_existing=skip_existing,\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 200, in download_entity_set\n    ) -> dict:\n    \n    ...<3 lines>...\n                \"entity_set\": entity_set,\n    \n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 150, in iter_entity_batches\n    else:\n    \n    ...<3 lines>...\n            }\n    \n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\http.py\", line 34, in get_json\n    return response.json()\n           ~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\models.py\", line 980, in json\n    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)\nrequests.exceptions.JSONDecodeError: Expecting value: line 1 column 2 (char 1)\n"
+    },
+    {
+      "entity_set": "FACT_DATA_MCA",
+      "error": "500 Server Error: Internal Server Error for url: https://xmart-api-public.who.int/mncah/FACT_DATA_MCA?%24top=5000&%24skip=15000",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 106, in download_service\n    result = future.result(timeout=ENTITY_TIMEOUT_SECONDS)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 456, in result\n    return self.__get_result()\n           ~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\thread.py\", line 59, in run\n    result = self.fn(*self.args, **self.kwargs)\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 46, in download_one_entity\n    return client.download_entity_set(\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n    ...<4 lines>...\n        skip_existing=skip_existing,\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 200, in download_entity_set\n    ) -> dict:\n    \n    ...<3 lines>...\n                \"entity_set\": entity_set,\n    \n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 150, in iter_entity_batches\n    else:\n    \n    ...<3 lines>...\n            }\n    \n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\http.py\", line 33, in get_json\n    response.raise_for_status()\n    ~~~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\models.py\", line 1026, in raise_for_status\n    raise HTTPError(http_error_msg, response=self)\nrequests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://xmart-api-public.who.int/mncah/FACT_DATA_MCA?%24top=5000&%24skip=15000\n"
+    },
+    {
+      "entity_set": "FACT_DATA_MCA_TABLE",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\models.py\", line 976, in json\n    return complexjson.loads(self.text, **kwargs)\n           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ~~~~~~~~~~~~~~~~~~~~~~~^^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\decoder.py\", line 345, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\decoder.py\", line 363, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 106, in download_service\n    result = future.result(timeout=ENTITY_TIMEOUT_SECONDS)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 456, in result\n    return self.__get_result()\n           ~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\thread.py\", line 59, in run\n    result = self.fn(*self.args, **self.kwargs)\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 46, in download_one_entity\n    return client.download_entity_set(\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n    ...<4 lines>...\n        skip_existing=skip_existing,\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 200, in download_entity_set\n    ) -> dict:\n    \n    ...<3 lines>...\n                \"entity_set\": entity_set,\n    \n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 150, in iter_entity_batches\n    else:\n    \n    ...<3 lines>...\n            }\n    \n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\http.py\", line 34, in get_json\n    return response.json()\n           ~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\models.py\", line 980, in json\n    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)\nrequests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
+    },
+    {
+      "entity_set": "MCA_FACT_DATA",
+      "error": "400 Client Error: Bad Request for url: https://xmart-api-public.who.int/mncah/MCA_FACT_DATA?%24top=5000&%24skip=145000",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 106, in download_service\n    result = future.result(timeout=ENTITY_TIMEOUT_SECONDS)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 456, in result\n    return self.__get_result()\n           ~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\thread.py\", line 59, in run\n    result = self.fn(*self.args, **self.kwargs)\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 46, in download_one_entity\n    return client.download_entity_set(\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n    ...<4 lines>...\n        skip_existing=skip_existing,\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 200, in download_entity_set\n    ) -> dict:\n    \n    ...<3 lines>...\n                \"entity_set\": entity_set,\n    \n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 150, in iter_entity_batches\n    else:\n    \n    ...<3 lines>...\n            }\n    \n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\http.py\", line 33, in get_json\n    response.raise_for_status()\n    ~~~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\models.py\", line 1026, in raise_for_status\n    raise HTTPError(http_error_msg, response=self)\nrequests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://xmart-api-public.who.int/mncah/MCA_FACT_DATA?%24top=5000&%24skip=145000\n"
+    },
+    {
+      "entity_set": "MCA_FACT_DATA_AGGREGATED",
+      "error": "400 Client Error: Bad Request for url: https://xmart-api-public.who.int/mncah/MCA_FACT_DATA_AGGREGATED?%24top=5000&%24skip=15000",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 106, in download_service\n    result = future.result(timeout=ENTITY_TIMEOUT_SECONDS)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 456, in result\n    return self.__get_result()\n           ~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\thread.py\", line 59, in run\n    result = self.fn(*self.args, **self.kwargs)\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 46, in download_one_entity\n    return client.download_entity_set(\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n    ...<4 lines>...\n        skip_existing=skip_existing,\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 200, in download_entity_set\n    ) -> dict:\n    \n    ...<3 lines>...\n                \"entity_set\": entity_set,\n    \n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 150, in iter_entity_batches\n    else:\n    \n    ...<3 lines>...\n            }\n    \n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\http.py\", line 33, in get_json\n    response.raise_for_status()\n    ~~~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\models.py\", line 1026, in raise_for_status\n    raise HTTPError(http_error_msg, response=self)\nrequests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://xmart-api-public.who.int/mncah/MCA_FACT_DATA_AGGREGATED?%24top=5000&%24skip=15000\n"
+    },
+    {
+      "entity_set": "POP_ADLPCT",
+      "error": "400 Client Error: Bad Request for url: https://xmart-api-public.who.int/mncah/POP_ADLPCT?%24top=5000&%24skip=50000",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 106, in download_service\n    result = future.result(timeout=ENTITY_TIMEOUT_SECONDS)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 456, in result\n    return self.__get_result()\n           ~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\thread.py\", line 59, in run\n    result = self.fn(*self.args, **self.kwargs)\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 46, in download_one_entity\n    return client.download_entity_set(\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n    ...<4 lines>...\n        skip_existing=skip_existing,\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 200, in download_entity_set\n    ) -> dict:\n    \n    ...<3 lines>...\n                \"entity_set\": entity_set,\n    \n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 150, in iter_entity_batches\n    else:\n    \n    ...<3 lines>...\n            }\n    \n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\http.py\", line 33, in get_json\n    response.raise_for_status()\n    ~~~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\models.py\", line 1026, in raise_for_status\n    raise HTTPError(http_error_msg, response=self)\nrequests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://xmart-api-public.who.int/mncah/POP_ADLPCT?%24top=5000&%24skip=50000\n"
+    },
+    {
+      "entity_set": "PS_FACT_OTHER",
+      "error": "Expecting value: line 1 column 2 (char 1)",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\models.py\", line 976, in json\n    return complexjson.loads(self.text, **kwargs)\n           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ~~~~~~~~~~~~~~~~~~~~~~~^^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\decoder.py\", line 345, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\decoder.py\", line 363, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 2 (char 1)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 106, in download_service\n    result = future.result(timeout=ENTITY_TIMEOUT_SECONDS)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 456, in result\n    return self.__get_result()\n           ~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\thread.py\", line 59, in run\n    result = self.fn(*self.args, **self.kwargs)\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 46, in download_one_entity\n    return client.download_entity_set(\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n    ...<4 lines>...\n        skip_existing=skip_existing,\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 200, in download_entity_set\n    ) -> dict:\n    \n    ...<3 lines>...\n                \"entity_set\": entity_set,\n    \n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 150, in iter_entity_batches\n    else:\n    \n    ...<3 lines>...\n            }\n    \n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\http.py\", line 34, in get_json\n    return response.json()\n           ~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\models.py\", line 980, in json\n    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)\nrequests.exceptions.JSONDecodeError: Expecting value: line 1 column 2 (char 1)\n"
+    },
+    {
+      "entity_set": "QED_Common_Indicator",
+      "error": "Expecting value: line 1 column 2 (char 1)",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\models.py\", line 976, in json\n    return complexjson.loads(self.text, **kwargs)\n           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ~~~~~~~~~~~~~~~~~~~~~~~^^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\decoder.py\", line 345, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\decoder.py\", line 363, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 2 (char 1)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 106, in download_service\n    result = future.result(timeout=ENTITY_TIMEOUT_SECONDS)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 456, in result\n    return self.__get_result()\n           ~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\thread.py\", line 59, in run\n    result = self.fn(*self.args, **self.kwargs)\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 46, in download_one_entity\n    return client.download_entity_set(\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n    ...<4 lines>...\n        skip_existing=skip_existing,\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 200, in download_entity_set\n    ) -> dict:\n    \n    ...<3 lines>...\n                \"entity_set\": entity_set,\n    \n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 150, in iter_entity_batches\n    else:\n    \n    ...<3 lines>...\n            }\n    \n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\http.py\", line 34, in get_json\n    return response.json()\n           ~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\models.py\", line 980, in json\n    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)\nrequests.exceptions.JSONDecodeError: Expecting value: line 1 column 2 (char 1)\n"
+    }
+  ]
+}

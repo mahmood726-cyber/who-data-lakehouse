@@ -1,0 +1,17 @@
+{
+  "source": "gho",
+  "run_at": "20260406T192907Z",
+  "indicator_count": 2,
+  "results": [
+    {
+      "indicator_code": "AIR_10",
+      "observation_count": 100,
+      "dimension_membership_count": 400
+    },
+    {
+      "indicator_code": "AIR_11",
+      "observation_count": 100,
+      "dimension_membership_count": 400
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "source": "xmart",
+  "service": "flumart",
+  "scope": "all",
+  "started_at": "2026-04-07T08:42:01.662979+00:00",
+  "finished_at": "2026-04-07T10:48:00.775707+00:00",
+  "duration_minutes": 126.0,
+  "entity_set_count": 18,
+  "downloaded_count": 18,
+  "skipped_count": 0,
+  "error_count": 3,
+  "total_rows_downloaded": 725783,
+  "results": [
+    {
+      "entity_set": "DAT_FMT_DATE",
+      "status": "downloaded",
+      "row_count": 3442,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\flumart\\DAT_FMT_DATE.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\flumart\\DAT_FMT_DATE"
+    },
+    {
+      "entity_set": "DAT_WKL_UPDATE",
+      "status": "downloaded",
+      "row_count": 46,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\flumart\\DAT_WKL_UPDATE.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\flumart\\DAT_WKL_UPDATE"
+    },
+    {
+      "entity_set": "REF_FLU_CONF_LEVEL",
+      "status": "downloaded",
+      "row_count": 3,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\flumart\\REF_FLU_CONF_LEVEL.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\flumart\\REF_FLU_CONF_LEVEL"
+    },
+    {
+      "entity_set": "REF_FLU_COUNTRY",
+      "status": "downloaded",
+      "row_count": 259,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\flumart\\REF_FLU_COUNTRY.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\flumart\\REF_FLU_COUNTRY"
+    },
+    {
+      "entity_set": "REF_FLU_DATE",
+      "status": "downloaded",
+      "row_count": 12790,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\flumart\\REF_FLU_DATE.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\flumart\\REF_FLU_DATE"
+    },
+    {
+      "entity_set": "REF_FLU_HEMISPHERE",
+      "status": "downloaded",
+      "row_count": 2,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\flumart\\REF_FLU_HEMISPHERE.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\flumart\\REF_FLU_HEMISPHERE"
+    },
+    {
+      "entity_set": "REF_FLU_IEZ",
+      "status": "downloaded",
+      "row_count": 5,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\flumart\\REF_FLU_IEZ.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\flumart\\REF_FLU_IEZ"
+    },
+    {
+      "entity_set": "REF_FLU_ITZ",
+      "status": "downloaded",
+      "row_count": 18,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\flumart\\REF_FLU_ITZ.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\flumart\\REF_FLU_ITZ"
+    },
+    {
+      "entity_set": "REF_FLU_SEASON",
+      "status": "downloaded",
+      "row_count": 3,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\flumart\\REF_FLU_SEASON.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\flumart\\REF_FLU_SEASON"
+    },
+    {
+      "entity_set": "REF_FLU_UN_REGION",
+      "status": "downloaded",
+      "row_count": 5,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\flumart\\REF_FLU_UN_REGION.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\flumart\\REF_FLU_UN_REGION"
+    },
+    {
+      "entity_set": "REF_FNT_WEEKLY_UPDATE_METADATA",
+      "status": "downloaded",
+      "row_count": 253,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\flumart\\REF_FNT_WEEKLY_UPDATE_METADATA.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\flumart\\REF_FNT_WEEKLY_UPDATE_METADATA"
+    },
+    {
+      "entity_set": "REF_WEEKLY_UPDATE_SUMMARY",
+      "status": "downloaded",
+      "row_count": 4,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\flumart\\REF_WEEKLY_UPDATE_SUMMARY.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\flumart\\REF_WEEKLY_UPDATE_SUMMARY"
+    },
+    {
+      "entity_set": "VIW_FLU_METADATA",
+      "status": "downloaded",
+      "row_count": 90,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\flumart\\VIW_FLU_METADATA.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\flumart\\VIW_FLU_METADATA"
+    },
+    {
+      "entity_set": "VIW_FNT_DATADOT",
+      "status": "downloaded",
+      "row_count": 190028,
+      "chunk_count": 4,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\flumart\\VIW_FNT_DATADOT.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\flumart\\VIW_FNT_DATADOT"
+    },
+    {
+      "entity_set": "VIW_FNT_SHINY",
+      "status": "downloaded",
+      "row_count": 182798,
+      "chunk_count": 4,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\flumart\\VIW_FNT_SHINY.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\flumart\\VIW_FNT_SHINY"
+    },
+    {
+      "entity_set": "VIW_FNT_SHINY_ALL",
+      "status": "downloaded",
+      "row_count": 190700,
+      "chunk_count": 4,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\flumart\\VIW_FNT_SHINY_ALL.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\flumart\\VIW_FNT_SHINY_ALL"
+    },
+    {
+      "entity_set": "VIW_FNT_SHINY_TOTAL",
+      "status": "downloaded",
+      "row_count": 143706,
+      "chunk_count": 3,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\flumart\\VIW_FNT_SHINY_TOTAL.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\flumart\\VIW_FNT_SHINY_TOTAL"
+    },
+    {
+      "entity_set": "VIW_REF_FLU_DATE_BYWEEK",
+      "status": "downloaded",
+      "row_count": 1631,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\flumart\\VIW_REF_FLU_DATE_BYWEEK.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\flumart\\VIW_REF_FLU_DATE_BYWEEK"
+    }
+  ],
+  "errors": [
+    {
+      "entity_set": "VIW_FID_EPI",
+      "error": "500 Server Error: Internal Server Error for url: https://xmart-api-public.who.int/FLUMART/VIW_FID_EPI?%24top=5000&%24skip=20000",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 106, in download_service\n    result = future.result(timeout=ENTITY_TIMEOUT_SECONDS)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 456, in result\n    return self.__get_result()\n           ~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\thread.py\", line 59, in run\n    result = self.fn(*self.args, **self.kwargs)\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 46, in download_one_entity\n    return client.download_entity_set(\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n    ...<4 lines>...\n        skip_existing=skip_existing,\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 224, in download_entity_set\n    for batch in self.iter_entity_batches(\n                 ~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n        page_size=page_size,\n        ^^^^^^^^^^^^^^^^^^^^\n        row_limit=row_limit,\n        ^^^^^^^^^^^^^^^^^^^^\n    ):\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 174, in iter_entity_batches\n    payload = get_json(\n        self.session,\n        f\"{self.profile.base_url}/{entity_set}\",\n        params={\"$top\": batch_size, \"$skip\": skip},\n    )\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\http.py\", line 33, in get_json\n    response.raise_for_status()\n    ~~~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\models.py\", line 1026, in raise_for_status\n    raise HTTPError(http_error_msg, response=self)\nrequests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://xmart-api-public.who.int/FLUMART/VIW_FID_EPI?%24top=5000&%24skip=20000\n"
+    },
+    {
+      "entity_set": "VIW_FID_SHINY",
+      "error": "HTTPSConnectionPool(host='xmart-api-public.who.int', port=443): Max retries exceeded with url: /FLUMART/VIW_FID_SHINY?%24top=5000&%24skip=0 (Caused by ReadTimeoutError(\"HTTPSConnectionPool(host='xmart-api-public.who.int', port=443): Read timed out. (read timeout=180)\"))",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\connectionpool.py\", line 534, in _make_request\n    response = conn.getresponse()\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\connection.py\", line 565, in getresponse\n    httplib_response = super().getresponse()\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\http\\client.py\", line 1430, in getresponse\n    response.begin()\n    ~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\http\\client.py\", line 331, in begin\n    version, status, reason = self._read_status()\n                              ~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\http\\client.py\", line 292, in _read_status\n    line = str(self.fp.readline(_MAXLINE + 1), \"iso-8859-1\")\n               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\socket.py\", line 719, in readinto\n    return self._sock.recv_into(b)\n           ~~~~~~~~~~~~~~~~~~~~^^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ssl.py\", line 1304, in recv_into\n    return self.read(nbytes, buffer)\n           ~~~~~~~~~^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ssl.py\", line 1138, in read\n    return self._sslobj.read(len, buffer)\n           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^\nTimeoutError: The read operation timed out\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\connectionpool.py\", line 787, in urlopen\n    response = self._make_request(\n        conn,\n    ...<10 lines>...\n        **response_kw,\n    )\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\connectionpool.py\", line 536, in _make_request\n    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\connectionpool.py\", line 367, in _raise_timeout\n    raise ReadTimeoutError(\n        self, url, f\"Read timed out. (read timeout={timeout_value})\"\n    ) from err\nurllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='xmart-api-public.who.int', port=443): Read timed out. (read timeout=180)\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\adapters.py\", line 644, in send\n    resp = conn.urlopen(\n        method=request.method,\n    ...<9 lines>...\n        chunked=chunked,\n    )\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\connectionpool.py\", line 942, in urlopen\n    return self.urlopen(\n           ~~~~~~~~~~~~^\n        method,\n        ^^^^^^^\n    ...<13 lines>...\n        **response_kw,\n        ^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\connectionpool.py\", line 871, in urlopen\n    return self.urlopen(\n           ~~~~~~~~~~~~^\n        method,\n        ^^^^^^^\n    ...<13 lines>...\n        **response_kw,\n        ^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\connectionpool.py\", line 871, in urlopen\n    return self.urlopen(\n           ~~~~~~~~~~~~^\n        method,\n        ^^^^^^^\n    ...<13 lines>...\n        **response_kw,\n        ^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\connectionpool.py\", line 871, in urlopen\n    return self.urlopen(\n           ~~~~~~~~~~~~^\n        method,\n        ^^^^^^^\n    ...<13 lines>...\n        **response_kw,\n        ^^^^^^^^^^^^^^\n    )\n    ^\n  [Previous line repeated 1 more time]\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\connectionpool.py\", line 841, in urlopen\n    retries = retries.increment(\n        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]\n    )\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\util\\retry.py\", line 519, in increment\n    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nurllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='xmart-api-public.who.int', port=443): Max retries exceeded with url: /FLUMART/VIW_FID_SHINY?%24top=5000&%24skip=0 (Caused by ReadTimeoutError(\"HTTPSConnectionPool(host='xmart-api-public.who.int', port=443): Read timed out. (read timeout=180)\"))\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 106, in download_service\n    result = future.result(timeout=ENTITY_TIMEOUT_SECONDS)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 456, in result\n    return self.__get_result()\n           ~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\thread.py\", line 59, in run\n    result = self.fn(*self.args, **self.kwargs)\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 46, in download_one_entity\n    return client.download_entity_set(\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n    ...<4 lines>...\n        skip_existing=skip_existing,\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 224, in download_entity_set\n    for batch in self.iter_entity_batches(\n                 ~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n        page_size=page_size,\n        ^^^^^^^^^^^^^^^^^^^^\n        row_limit=row_limit,\n        ^^^^^^^^^^^^^^^^^^^^\n    ):\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 174, in iter_entity_batches\n    payload = get_json(\n        self.session,\n        f\"{self.profile.base_url}/{entity_set}\",\n        params={\"$top\": batch_size, \"$skip\": skip},\n    )\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\http.py\", line 32, in get_json\n    response = session.get(url, params=params, timeout=DEFAULT_TIMEOUT_SECONDS)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py\", line 602, in get\n    return self.request(\"GET\", url, **kwargs)\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py\", line 589, in request\n    resp = self.send(prep, **send_kwargs)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py\", line 703, in send\n    r = adapter.send(request, **kwargs)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\adapters.py\", line 677, in send\n    raise ConnectionError(e, request=request)\nrequests.exceptions.ConnectionError: HTTPSConnectionPool(host='xmart-api-public.who.int', port=443): Max retries exceeded with url: /FLUMART/VIW_FID_SHINY?%24top=5000&%24skip=0 (Caused by ReadTimeoutError(\"HTTPSConnectionPool(host='xmart-api-public.who.int', port=443): Read timed out. (read timeout=180)\"))\n"
+    },
+    {
+      "entity_set": "VIW_FNT",
+      "error": "Timed out after 1800s"
+    }
+  ]
+}

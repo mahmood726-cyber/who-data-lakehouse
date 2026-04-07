@@ -1,0 +1,12 @@
+{
+  "source": "gho",
+  "run_at": "20260406T192803Z",
+  "indicator_count": 1,
+  "results": [
+    {
+      "indicator_code": "WHOSIS_000001",
+      "observation_count": 200,
+      "dimension_membership_count": 600
+    }
+  ]
+}

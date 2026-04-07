@@ -1,0 +1,2 @@
+[console_scripts]
+who-data = who_data_lakehouse.cli:main

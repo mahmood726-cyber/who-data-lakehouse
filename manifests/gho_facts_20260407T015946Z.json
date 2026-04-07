@@ -1,0 +1,16 @@
+{
+  "source": "gho",
+  "run_at": "20260407T015946Z",
+  "indicator_count": 1,
+  "downloaded_count": 1,
+  "skipped_count": 0,
+  "error_count": 0,
+  "results": [
+    {
+      "indicator_code": "AIR_10",
+      "status": "downloaded",
+      "observation_count": 20,
+      "dimension_membership_count": 80
+    }
+  ]
+}

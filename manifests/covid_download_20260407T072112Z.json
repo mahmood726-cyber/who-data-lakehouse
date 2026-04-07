@@ -1,0 +1,18 @@
+{
+  "source": "covid",
+  "run_at": "20260407T072112Z",
+  "download_count": 9,
+  "skipped_count": 0,
+  "error_count": 0,
+  "downloaded_files": {
+    "WHO-COVID-19-global-daily-data.csv": "C:\\Projects\\who-data-lakehouse\\data\\raw\\covid\\WHO-COVID-19-global-daily-data.csv",
+    "WHO-COVID-19-global-data.csv": "C:\\Projects\\who-data-lakehouse\\data\\raw\\covid\\WHO-COVID-19-global-data.csv",
+    "WHO-COVID-19-global-table-data.csv": "C:\\Projects\\who-data-lakehouse\\data\\raw\\covid\\WHO-COVID-19-global-table-data.csv",
+    "WHO-COVID-19-global-monthly-death-by-age-data.csv": "C:\\Projects\\who-data-lakehouse\\data\\raw\\covid\\WHO-COVID-19-global-monthly-death-by-age-data.csv",
+    "WHO-COVID-19-global-hosp-icu-data.csv": "C:\\Projects\\who-data-lakehouse\\data\\raw\\covid\\WHO-COVID-19-global-hosp-icu-data.csv",
+    "COV_VAC_UPTAKE_2024.csv": "C:\\Projects\\who-data-lakehouse\\data\\raw\\covid\\COV_VAC_UPTAKE_2024.csv",
+    "COV_VAC_POLICY_2024.csv": "C:\\Projects\\who-data-lakehouse\\data\\raw\\covid\\COV_VAC_POLICY_2024.csv",
+    "COV_VAC_UPTAKE_2021_2023.csv": "C:\\Projects\\who-data-lakehouse\\data\\raw\\covid\\COV_VAC_UPTAKE_2021_2023.csv",
+    "COV_VAC_PROD.csv": "C:\\Projects\\who-data-lakehouse\\data\\raw\\covid\\COV_VAC_PROD.csv"
+  }
+}

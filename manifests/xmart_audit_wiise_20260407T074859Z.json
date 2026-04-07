@@ -1,0 +1,151 @@
+{
+  "source": "xmart",
+  "service": "wiise",
+  "scope": "all",
+  "run_at": "20260407T074859Z",
+  "entity_set_count": 149,
+  "known_row_total": 52928297,
+  "unknown_count_rows": 16,
+  "top_entity_sets": [
+    {
+      "service": "wiise",
+      "entity_set": "REF_POPULATIONS",
+      "kind": "EntitySet",
+      "url": "REF_POPULATIONS",
+      "row_count": 31986595.0
+    },
+    {
+      "service": "wiise",
+      "entity_set": "MT_REF_POPULATIONS",
+      "kind": "EntitySet",
+      "url": "MT_REF_POPULATIONS",
+      "row_count": 11047764.0
+    },
+    {
+      "service": "wiise",
+      "entity_set": "MT_AD_IND_ALL_LONG",
+      "kind": "EntitySet",
+      "url": "MT_AD_IND_ALL_LONG",
+      "row_count": 1423757.0
+    },
+    {
+      "service": "wiise",
+      "entity_set": "AD_INDICATORS",
+      "kind": "EntitySet",
+      "url": "AD_INDICATORS",
+      "row_count": 1110122.0
+    },
+    {
+      "service": "wiise",
+      "entity_set": "AD_COVERAGES",
+      "kind": "EntitySet",
+      "url": "AD_COVERAGES",
+      "row_count": 998283.0
+    },
+    {
+      "service": "wiise",
+      "entity_set": "MT_REF_POPULATIONS_AGEGROUPS",
+      "kind": "EntitySet",
+      "url": "MT_REF_POPULATIONS_AGEGROUPS",
+      "row_count": 973090.0
+    },
+    {
+      "service": "wiise",
+      "entity_set": "AD_INCIDENCES",
+      "kind": "EntitySet",
+      "url": "AD_INCIDENCES",
+      "row_count": 829990.0
+    },
+    {
+      "service": "wiise",
+      "entity_set": "MT_AD_IND_LONG",
+      "kind": "EntitySet",
+      "url": "MT_AD_IND_LONG",
+      "row_count": 818949.0
+    },
+    {
+      "service": "wiise",
+      "entity_set": "MT_AD_COV_LONG",
+      "kind": "EntitySet",
+      "url": "MT_AD_COV_LONG",
+      "row_count": 412983.0
+    },
+    {
+      "service": "wiise",
+      "entity_set": "MT_AD_COV_NATIONAL_LONG",
+      "kind": "EntitySet",
+      "url": "MT_AD_COV_NATIONAL_LONG",
+      "row_count": 394039.0
+    },
+    {
+      "service": "wiise",
+      "entity_set": "COV_TESSY_RAW_TEMP",
+      "kind": "EntitySet",
+      "url": "COV_TESSY_RAW_TEMP",
+      "row_count": 350807.0
+    },
+    {
+      "service": "wiise",
+      "entity_set": "MT_RI_IND_DIST_LONG",
+      "kind": "EntitySet",
+      "url": "MT_RI_IND_DIST_LONG",
+      "row_count": 339766.0
+    },
+    {
+      "service": "wiise",
+      "entity_set": "AD_GLOBAL_REGIONAL_COVERAGES",
+      "kind": "EntitySet",
+      "url": "AD_GLOBAL_REGIONAL_COVERAGES",
+      "row_count": 253143.0
+    },
+    {
+      "service": "wiise",
+      "entity_set": "AD_SURVEYS_RESULTS",
+      "kind": "EntitySet",
+      "url": "AD_SURVEYS_RESULTS",
+      "row_count": 199802.0
+    },
+    {
+      "service": "wiise",
+      "entity_set": "COV_UPTAKE",
+      "kind": "EntitySet",
+      "url": "COV_UPTAKE",
+      "row_count": 168610.0
+    },
+    {
+      "service": "wiise",
+      "entity_set": "COV_INDICATORS",
+      "kind": "EntitySet",
+      "url": "COV_INDICATORS",
+      "row_count": 162955.0
+    },
+    {
+      "service": "wiise",
+      "entity_set": "MT_AD_INTRO_LONG",
+      "kind": "EntitySet",
+      "url": "MT_AD_INTRO_LONG",
+      "row_count": 137945.0
+    },
+    {
+      "service": "wiise",
+      "entity_set": "AD_SCHEDULES",
+      "kind": "EntitySet",
+      "url": "AD_SCHEDULES",
+      "row_count": 130742.0
+    },
+    {
+      "service": "wiise",
+      "entity_set": "AD_HPVADMINS",
+      "kind": "EntitySet",
+      "url": "AD_HPVADMINS",
+      "row_count": 121708.0
+    },
+    {
+      "service": "wiise",
+      "entity_set": "AD_OUTBREAKS",
+      "kind": "EntitySet",
+      "url": "AD_OUTBREAKS",
+      "row_count": 97605.0
+    }
+  ]
+}

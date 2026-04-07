@@ -1,0 +1,20 @@
+{
+  "source": "xmart",
+  "service": "wiise",
+  "scope": "curated",
+  "run_at": "20260407T074917Z",
+  "entity_set_count": 1,
+  "downloaded_count": 1,
+  "skipped_count": 0,
+  "error_count": 0,
+  "results": [
+    {
+      "entity_set": "MT_AD_COV_LONG",
+      "status": "downloaded",
+      "row_count": 5000,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\wiise\\MT_AD_COV_LONG.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\wiise\\MT_AD_COV_LONG"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "source": "world_health_statistics",
+  "run_at": "20260407T072557Z",
+  "download_count": 4,
+  "skipped_count": 0,
+  "error_count": 0,
+  "downloaded_files": {
+    "web_download.xlsx": "C:\\Projects\\who-data-lakehouse\\data\\raw\\world_health_statistics\\web_download.xlsx",
+    "whs2023_annex1.xlsx": "C:\\Projects\\who-data-lakehouse\\data\\raw\\world_health_statistics\\whs2023_annex1.xlsx",
+    "whs2022_annex2.xlsx": "C:\\Projects\\who-data-lakehouse\\data\\raw\\world_health_statistics\\whs2022_annex2.xlsx",
+    "whs2021_annex2_20210519.xlsx": "C:\\Projects\\who-data-lakehouse\\data\\raw\\world_health_statistics\\whs2021_annex2_20210519.xlsx"
+  }
+}

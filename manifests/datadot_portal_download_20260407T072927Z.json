@@ -1,0 +1,22 @@
+{
+  "source": "datadot",
+  "run_at": "20260407T072927Z",
+  "useful_link_count": 14,
+  "download_count": 14,
+  "downloaded_files": {
+    "https://srhdpeuwpubsa.blob.core.windows.net/whdh/MERS/WHO-MERS-global-data.csv": "C:\\Projects\\who-data-lakehouse\\data\\raw\\datadot\\portal_downloads\\WHO-MERS-global-data.csv",
+    "https://monitor.digitalhealthmonitor.org/api/export_global_data?user_language=en": "C:\\Projects\\who-data-lakehouse\\data\\raw\\datadot\\portal_downloads\\Digital_Health_Data.xlsx",
+    "https://srhdpeuwpubsa.blob.core.windows.net/whdh/COVID/COV_VAC_POLICY_2024.csv": "C:\\Projects\\who-data-lakehouse\\data\\raw\\datadot\\portal_downloads\\COV_VAC_POLICY_2024.csv",
+    "https://srhdpeuwpubsa.blob.core.windows.net/whdh/COVID/COV_VAC_PROD.csv": "C:\\Projects\\who-data-lakehouse\\data\\raw\\datadot\\portal_downloads\\COV_VAC_PROD.csv",
+    "https://srhdpeuwpubsa.blob.core.windows.net/whdh/COVID/COV_VAC_UPTAKE_2021_2023.csv": "C:\\Projects\\who-data-lakehouse\\data\\raw\\datadot\\portal_downloads\\COV_VAC_UPTAKE_2021_2023.csv",
+    "https://srhdpeuwpubsa.blob.core.windows.net/whdh/COVID/COV_VAC_UPTAKE_2024.csv": "C:\\Projects\\who-data-lakehouse\\data\\raw\\datadot\\portal_downloads\\COV_VAC_UPTAKE_2024.csv",
+    "https://srhdpeuwpubsa.blob.core.windows.net/whdh/COVID/WHO-COVID-19-global-daily-data.csv": "C:\\Projects\\who-data-lakehouse\\data\\raw\\datadot\\portal_downloads\\WHO-COVID-19-global-daily-data.csv",
+    "https://srhdpeuwpubsa.blob.core.windows.net/whdh/COVID/WHO-COVID-19-global-data.csv": "C:\\Projects\\who-data-lakehouse\\data\\raw\\datadot\\portal_downloads\\WHO-COVID-19-global-data.csv",
+    "https://srhdpeuwpubsa.blob.core.windows.net/whdh/COVID/WHO-COVID-19-global-hosp-icu-data.csv": "C:\\Projects\\who-data-lakehouse\\data\\raw\\datadot\\portal_downloads\\WHO-COVID-19-global-hosp-icu-data.csv",
+    "https://srhdpeuwpubsa.blob.core.windows.net/whdh/COVID/WHO-COVID-19-global-monthly-death-by-age-data.csv": "C:\\Projects\\who-data-lakehouse\\data\\raw\\datadot\\portal_downloads\\WHO-COVID-19-global-monthly-death-by-age-data.csv",
+    "https://srhdpeuwpubsa.blob.core.windows.net/whdh/COVID/WHO-COVID-19-global-table-data.csv": "C:\\Projects\\who-data-lakehouse\\data\\raw\\datadot\\portal_downloads\\WHO-COVID-19-global-table-data.csv",
+    "https://cms.platform.who.int/docs/librariesprovider22/sti-prevalence-atlas/sti-prevalence-atlas-data-dictionary-and-extraction-forms.xlsx?sfvrsn=aa0de630_5": "C:\\Projects\\who-data-lakehouse\\data\\raw\\datadot\\portal_downloads\\sti-prevalence-atlas-data-dictionary-and-extraction-forms.xlsx",
+    "https://cms.platform.who.int/docs/librariesprovider22/sti-prevalence-atlas/stiprevatlas-fulldataset.xlsx?sfvrsn=dcd7621a_1": "C:\\Projects\\who-data-lakehouse\\data\\raw\\datadot\\portal_downloads\\stiprevatlas-fulldataset.xlsx",
+    "https://srhdpeuwpubsa.blob.core.windows.net/whdh/3B/dataset.csv": "C:\\Projects\\who-data-lakehouse\\data\\raw\\datadot\\portal_downloads\\dataset.csv"
+  }
+}
