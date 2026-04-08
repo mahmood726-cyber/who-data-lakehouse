@@ -34,6 +34,13 @@ from who_data_lakehouse.sources.xmart import (
     XmartClient,
 )
 from who_data_lakehouse.storage import utc_stamp, write_dataframe, write_json, write_jsonl
+from who_data_lakehouse.catalog import build_catalog, search_catalog
+from who_data_lakehouse.promote.covid import promote_covid
+from who_data_lakehouse.promote.ghed import promote_ghed
+from who_data_lakehouse.promote.whs import promote_whs
+from who_data_lakehouse.promote.glaas import promote_glaas
+from who_data_lakehouse.promote.hidr import promote_hidr
+from who_data_lakehouse.promote.gho_facts import promote_gho_facts
 
 
 def command_gho_metadata(args: argparse.Namespace) -> dict:
@@ -727,6 +734,87 @@ def command_full_sync(args: argparse.Namespace) -> dict:
     return write_summary("full_sync", summary)
 
 
+def command_promote(args: argparse.Namespace) -> dict:
+    source = args.source
+    skip = args.skip_existing
+    results = {}
+
+    if source in ("all", "covid"):
+        raw = RAW_DIR / "covid"
+        if raw.exists():
+            results["covid"] = promote_covid(raw, SILVER_DIR / "covid", skip_existing=skip)
+
+    if source in ("all", "ghed"):
+        raw = RAW_DIR / "ghed" / "GHED_data.XLSX"
+        if raw.exists():
+            results["ghed"] = promote_ghed(raw, SILVER_DIR / "ghed", skip_existing=skip)
+
+    if source in ("all", "whs"):
+        raw = RAW_DIR / "world_health_statistics"
+        if raw.exists():
+            results["whs"] = promote_whs(raw, SILVER_DIR / "world_health_statistics", skip_existing=skip)
+
+    if source in ("all", "glaas"):
+        glaas_files = sorted((RAW_DIR / "glaas").glob("*.xlsx")) if (RAW_DIR / "glaas").exists() else []
+        if glaas_files:
+            results["glaas"] = promote_glaas(glaas_files[0], SILVER_DIR / "glaas", skip_existing=skip)
+
+    if source in ("all", "hidr"):
+        raw = RAW_DIR / "hidr" / "datasets"
+        if raw.exists():
+            results["hidr"] = promote_hidr(raw, SILVER_DIR / "hidr", skip_existing=skip)
+
+    if source in ("all", "gho-facts"):
+        raw = RAW_DIR / "gho" / "facts"
+        if raw.exists():
+            results["gho_facts"] = promote_gho_facts(raw, SILVER_DIR / "gho", skip_existing=skip)
+
+    for src, res_list in results.items():
+        if isinstance(res_list, list):
+            promoted = sum(1 for r in res_list if r.get("status") == "promoted")
+            skipped = sum(1 for r in res_list if r.get("status") == "skipped")
+            total_rows = sum(r.get("rows") or 0 for r in res_list)
+            print(f"  {src}: {promoted} promoted, {skipped} skipped, {total_rows:,} rows")
+        elif isinstance(res_list, dict):
+            print(f"  {src}: {res_list.get('status', '?')} ({len(res_list.get('sheets', []))} sheets)")
+
+    return write_summary("promote", {"sources": list(results.keys())})
+
+
+def command_build_catalog(args: argparse.Namespace) -> dict:
+    from who_data_lakehouse.config import DATA_DIR
+    catalog = build_catalog(SILVER_DIR, output_path=DATA_DIR / "catalog.parquet")
+    print(f"Catalog built: {len(catalog)} datasets")
+    print(f"Sources: {', '.join(sorted(catalog['source'].unique()))}")
+    print(f"Total rows across all datasets: {catalog['rows'].sum():,.0f}")
+    print(f"Saved to: {DATA_DIR / 'catalog.parquet'}")
+    return write_summary("build_catalog", {"datasets": int(len(catalog)), "path": str(DATA_DIR / "catalog.parquet")})
+
+
+def command_search(args: argparse.Namespace) -> dict:
+    from who_data_lakehouse.config import DATA_DIR
+    catalog_path = DATA_DIR / "catalog.parquet"
+    if not catalog_path.exists():
+        print("No catalog found. Run: who-data build-catalog")
+        return {"error": "no catalog"}
+
+    catalog = pd.read_parquet(catalog_path)
+    results = search_catalog(catalog, keyword=args.keyword, source=args.source)
+
+    if results.empty:
+        print("No matching datasets found.")
+        return {"matches": 0}
+
+    for _, row in results.iterrows():
+        print(f"\n  [{row['source']}] {row['dataset']}")
+        print(f"    {row['description']}")
+        print(f"    {row['rows']:,.0f} rows, {int(row['columns'])} columns")
+        print(f"    Path: {row['silver_path']}")
+
+    print(f"\n  {len(results)} dataset(s) found.")
+    return {"matches": int(len(results))}
+
+
 def write_summary(prefix: str, summary: dict) -> dict:
     stamp = utc_stamp()
     path = MANIFEST_DIR / f"{prefix}_{stamp}.json"
@@ -931,6 +1019,26 @@ def build_parser() -> argparse.ArgumentParser:
     sample_sync.add_argument("--concurrency", type=int, default=DEFAULT_CONCURRENCY)
     sample_sync.add_argument("--datadot-row-limit", type=int, default=200)
     sample_sync.set_defaults(handler=command_sample_sync)
+
+    # --- promote ---
+    sp_promote = subparsers.add_parser("promote", help="Promote raw data to silver parquet")
+    sp_promote.add_argument(
+        "--source",
+        choices=["all", "covid", "ghed", "whs", "glaas", "hidr", "gho-facts"],
+        default="all",
+    )
+    sp_promote.add_argument("--skip-existing", action="store_true")
+    sp_promote.set_defaults(handler=command_promote)
+
+    # --- build-catalog ---
+    sp_catalog = subparsers.add_parser("build-catalog", help="Build master catalog from silver layer")
+    sp_catalog.set_defaults(handler=command_build_catalog)
+
+    # --- search ---
+    sp_search = subparsers.add_parser("search", help="Search the master catalog")
+    sp_search.add_argument("keyword", nargs="?", help="Search term (matches dataset name, description, columns)")
+    sp_search.add_argument("--source", help="Filter by source (e.g., covid, gho, xmart/wiise)")
+    sp_search.set_defaults(handler=command_search)
 
     return parser
 
