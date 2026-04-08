@@ -41,6 +41,7 @@ from who_data_lakehouse.promote.whs import promote_whs
 from who_data_lakehouse.promote.glaas import promote_glaas
 from who_data_lakehouse.promote.hidr import promote_hidr
 from who_data_lakehouse.promote.gho_facts import promote_gho_facts
+from who_data_lakehouse.promote.mortality import promote_mortality
 
 
 def command_gho_metadata(args: argparse.Namespace) -> dict:
@@ -769,6 +770,11 @@ def command_promote(args: argparse.Namespace) -> dict:
         if raw.exists():
             results["gho_facts"] = promote_gho_facts(raw, SILVER_DIR / "gho", skip_existing=skip)
 
+    if source in ("all", "mortality"):
+        raw = RAW_DIR / "mortality"
+        if raw.exists():
+            results["mortality"] = promote_mortality(raw, SILVER_DIR / "mortality", skip_existing=skip)
+
     for src, res_list in results.items():
         if isinstance(res_list, list):
             promoted = sum(1 for r in res_list if r.get("status") == "promoted")
@@ -1024,7 +1030,7 @@ def build_parser() -> argparse.ArgumentParser:
     sp_promote = subparsers.add_parser("promote", help="Promote raw data to silver parquet")
     sp_promote.add_argument(
         "--source",
-        choices=["all", "covid", "ghed", "whs", "glaas", "hidr", "gho-facts"],
+        choices=["all", "covid", "ghed", "whs", "glaas", "hidr", "gho-facts", "mortality"],
         default="all",
     )
     sp_promote.add_argument("--skip-existing", action="store_true")
