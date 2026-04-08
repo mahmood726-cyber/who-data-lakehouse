@@ -1,0 +1,333 @@
+{
+  "source": "xmart",
+  "service": "nutrition",
+  "scope": "all",
+  "started_at": "2026-04-07T10:29:11.976096+00:00",
+  "finished_at": "2026-04-07T21:47:15.551599+00:00",
+  "duration_minutes": 678.1,
+  "entity_set_count": 27,
+  "downloaded_count": 13,
+  "skipped_count": 14,
+  "error_count": 21,
+  "total_rows_downloaded": 52623,
+  "results": [
+    {
+      "entity_set": "GTT_AARR_VALUE_LIST",
+      "status": "skipped",
+      "row_count": null,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\nutrition\\GTT_AARR_VALUE_LIST.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\nutrition\\GTT_AARR_VALUE_LIST"
+    },
+    {
+      "entity_set": "GTT_ANA_WHAT_IF",
+      "status": "skipped",
+      "row_count": null,
+      "chunk_count": 183,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\nutrition\\GTT_ANA_WHAT_IF.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\nutrition\\GTT_ANA_WHAT_IF"
+    },
+    {
+      "entity_set": "GTT_CALCULATOR_TEXTS",
+      "status": "skipped",
+      "row_count": null,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\nutrition\\GTT_CALCULATOR_TEXTS.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\nutrition\\GTT_CALCULATOR_TEXTS"
+    },
+    {
+      "entity_set": "GTT_CHART_FACTS",
+      "status": "skipped",
+      "row_count": null,
+      "chunk_count": 3,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\nutrition\\GTT_CHART_FACTS.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\nutrition\\GTT_CHART_FACTS"
+    },
+    {
+      "entity_set": "GTT_CHART_GLOBAL_FACTS",
+      "status": "skipped",
+      "row_count": null,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\nutrition\\GTT_CHART_GLOBAL_FACTS.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\nutrition\\GTT_CHART_GLOBAL_FACTS"
+    },
+    {
+      "entity_set": "GTT_COUNTRY",
+      "status": "skipped",
+      "row_count": null,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\nutrition\\GTT_COUNTRY.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\nutrition\\GTT_COUNTRY"
+    },
+    {
+      "entity_set": "GTT_EBF_RATE_VALUES",
+      "status": "downloaded",
+      "row_count": 8313,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\nutrition\\GTT_EBF_RATE_VALUES.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\nutrition\\GTT_EBF_RATE_VALUES"
+    },
+    {
+      "entity_set": "GTT_EBF_STARTING_YEAR",
+      "status": "downloaded",
+      "row_count": 1498,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\nutrition\\GTT_EBF_STARTING_YEAR.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\nutrition\\GTT_EBF_STARTING_YEAR"
+    },
+    {
+      "entity_set": "GTT_FACT",
+      "status": "downloaded",
+      "row_count": 27888,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\nutrition\\GTT_FACT.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\nutrition\\GTT_FACT"
+    },
+    {
+      "entity_set": "GTT_FACT_STATUS",
+      "status": "downloaded",
+      "row_count": 3792,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\nutrition\\GTT_FACT_STATUS.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\nutrition\\GTT_FACT_STATUS"
+    },
+    {
+      "entity_set": "GTT_FACT_TOP_TABLE",
+      "status": "downloaded",
+      "row_count": 9136,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\nutrition\\GTT_FACT_TOP_TABLE.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\nutrition\\GTT_FACT_TOP_TABLE"
+    },
+    {
+      "entity_set": "GTT_GLOBAL_MAPS",
+      "status": "downloaded",
+      "row_count": 776,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\nutrition\\GTT_GLOBAL_MAPS.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\nutrition\\GTT_GLOBAL_MAPS"
+    },
+    {
+      "entity_set": "GTT_GLOBAL_PROGRESS",
+      "status": "downloaded",
+      "row_count": 855,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\nutrition\\GTT_GLOBAL_PROGRESS.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\nutrition\\GTT_GLOBAL_PROGRESS"
+    },
+    {
+      "entity_set": "GTT_LEGEND_TRANSLATE",
+      "status": "skipped",
+      "row_count": null,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\nutrition\\GTT_LEGEND_TRANSLATE.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\nutrition\\GTT_LEGEND_TRANSLATE"
+    },
+    {
+      "entity_set": "GTT_OVR_CALCULATOR",
+      "status": "skipped",
+      "row_count": null,
+      "chunk_count": 195,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\nutrition\\GTT_OVR_CALCULATOR.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\nutrition\\GTT_OVR_CALCULATOR"
+    },
+    {
+      "entity_set": "GTT_STARTING_YEAR_VALUE_LIST",
+      "status": "downloaded",
+      "row_count": 18,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\nutrition\\GTT_STARTING_YEAR_VALUE_LIST.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\nutrition\\GTT_STARTING_YEAR_VALUE_LIST"
+    },
+    {
+      "entity_set": "REF_COUNTRY",
+      "status": "skipped",
+      "row_count": null,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\nutrition\\REF_COUNTRY.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\nutrition\\REF_COUNTRY"
+    },
+    {
+      "entity_set": "REF_GTT_FACT_TYPE",
+      "status": "skipped",
+      "row_count": null,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\nutrition\\REF_GTT_FACT_TYPE.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\nutrition\\REF_GTT_FACT_TYPE"
+    },
+    {
+      "entity_set": "REF_GTT_INDICATOR_NAMES",
+      "status": "skipped",
+      "row_count": null,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\nutrition\\REF_GTT_INDICATOR_NAMES.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\nutrition\\REF_GTT_INDICATOR_NAMES"
+    },
+    {
+      "entity_set": "REF_GTT_LANGUAGE",
+      "status": "skipped",
+      "row_count": null,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\nutrition\\REF_GTT_LANGUAGE.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\nutrition\\REF_GTT_LANGUAGE"
+    },
+    {
+      "entity_set": "REF_GTT_LINKS",
+      "status": "skipped",
+      "row_count": null,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\nutrition\\REF_GTT_LINKS.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\nutrition\\REF_GTT_LINKS"
+    },
+    {
+      "entity_set": "REF_GTT_MEASURE_TYPE",
+      "status": "skipped",
+      "row_count": null,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\nutrition\\REF_GTT_MEASURE_TYPE.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\nutrition\\REF_GTT_MEASURE_TYPE"
+    },
+    {
+      "entity_set": "REF_GTT_PERCENT",
+      "status": "downloaded",
+      "row_count": 101,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\nutrition\\REF_GTT_PERCENT.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\nutrition\\REF_GTT_PERCENT"
+    },
+    {
+      "entity_set": "REF_GTT_POPTYPES",
+      "status": "downloaded",
+      "row_count": 12,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\nutrition\\REF_GTT_POPTYPES.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\nutrition\\REF_GTT_POPTYPES"
+    },
+    {
+      "entity_set": "REF_GTT_TARGET_YEAR",
+      "status": "downloaded",
+      "row_count": 2,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\nutrition\\REF_GTT_TARGET_YEAR.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\nutrition\\REF_GTT_TARGET_YEAR"
+    },
+    {
+      "entity_set": "REF_GTT_TRANSLATE",
+      "status": "downloaded",
+      "row_count": 184,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\nutrition\\REF_GTT_TRANSLATE.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\nutrition\\REF_GTT_TRANSLATE"
+    },
+    {
+      "entity_set": "REF_GTT_TRANSLATE_IND_DEFINITIONS",
+      "status": "downloaded",
+      "row_count": 48,
+      "chunk_count": 1,
+      "raw_path": "C:\\Projects\\who-data-lakehouse\\data\\raw\\xmart\\nutrition\\REF_GTT_TRANSLATE_IND_DEFINITIONS.jsonl.gz",
+      "silver_dir": "C:\\Projects\\who-data-lakehouse\\data\\silver\\xmart\\nutrition\\REF_GTT_TRANSLATE_IND_DEFINITIONS"
+    }
+  ],
+  "errors": [
+    {
+      "entity_set": "GTT_ANA_CALCULATOR_V",
+      "error": "Timed out after 1800s"
+    },
+    {
+      "entity_set": "GTT_EBF_WHAT_IF",
+      "error": "Timed out after 1800s"
+    },
+    {
+      "entity_set": "GTT_LBW_CALCULATOR",
+      "error": "Timed out after 1800s"
+    },
+    {
+      "entity_set": "GTT_LBW_CALCULATOR_V",
+      "error": "Timed out after 1800s"
+    },
+    {
+      "entity_set": "GTT_LBW_WHAT_IF",
+      "error": "Timed out after 1800s"
+    },
+    {
+      "entity_set": "GTT_OVR_WHAT_IF",
+      "error": "",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 106, in download_service\n    result = future.result(timeout=ENTITY_TIMEOUT_SECONDS)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 456, in result\n    return self.__get_result()\n           ~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\thread.py\", line 59, in run\n    result = self.fn(*self.args, **self.kwargs)\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 46, in download_one_entity\n    return client.download_entity_set(\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n    ...<4 lines>...\n        skip_existing=skip_existing,\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 224, in download_entity_set\n    for batch in self.iter_entity_batches(\n                 ~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n        page_size=page_size,\n        ^^^^^^^^^^^^^^^^^^^^\n        row_limit=row_limit,\n        ^^^^^^^^^^^^^^^^^^^^\n    ):\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 174, in iter_entity_batches\n    payload = get_json(\n        self.session,\n        f\"{self.profile.base_url}/{entity_set}\",\n        params={\"$top\": batch_size, \"$skip\": skip},\n    )\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\http.py\", line 32, in get_json\n    response = session.get(url, params=params, timeout=DEFAULT_TIMEOUT_SECONDS)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py\", line 602, in get\n    return self.request(\"GET\", url, **kwargs)\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py\", line 589, in request\n    resp = self.send(prep, **send_kwargs)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py\", line 746, in send\n    r.content\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\models.py\", line 902, in content\n    self._content = b\"\".join(self.iter_content(CONTENT_CHUNK_SIZE)) or b\"\"\n                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+    },
+    {
+      "entity_set": "GTT_STATUS_LC",
+      "error": "",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 106, in download_service\n    result = future.result(timeout=ENTITY_TIMEOUT_SECONDS)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 456, in result\n    return self.__get_result()\n           ~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\thread.py\", line 59, in run\n    result = self.fn(*self.args, **self.kwargs)\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 46, in download_one_entity\n    return client.download_entity_set(\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n    ...<4 lines>...\n        skip_existing=skip_existing,\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 224, in download_entity_set\n    for batch in self.iter_entity_batches(\n                 ~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n        page_size=page_size,\n        ^^^^^^^^^^^^^^^^^^^^\n        row_limit=row_limit,\n        ^^^^^^^^^^^^^^^^^^^^\n    ):\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 174, in iter_entity_batches\n    payload = get_json(\n        self.session,\n        f\"{self.profile.base_url}/{entity_set}\",\n        params={\"$top\": batch_size, \"$skip\": skip},\n    )\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\http.py\", line 32, in get_json\n    response = session.get(url, params=params, timeout=DEFAULT_TIMEOUT_SECONDS)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py\", line 602, in get\n    return self.request(\"GET\", url, **kwargs)\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py\", line 589, in request\n    resp = self.send(prep, **send_kwargs)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py\", line 746, in send\n    r.content\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\models.py\", line 902, in content\n    self._content = b\"\".join(self.iter_content(CONTENT_CHUNK_SIZE)) or b\"\"\n                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+    },
+    {
+      "entity_set": "GTT_STATUS_MESSAGES",
+      "error": "",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 106, in download_service\n    result = future.result(timeout=ENTITY_TIMEOUT_SECONDS)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 456, in result\n    return self.__get_result()\n           ~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\thread.py\", line 59, in run\n    result = self.fn(*self.args, **self.kwargs)\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 46, in download_one_entity\n    return client.download_entity_set(\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n    ...<4 lines>...\n        skip_existing=skip_existing,\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 224, in download_entity_set\n    for batch in self.iter_entity_batches(\n                 ~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n        page_size=page_size,\n        ^^^^^^^^^^^^^^^^^^^^\n        row_limit=row_limit,\n        ^^^^^^^^^^^^^^^^^^^^\n    ):\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 174, in iter_entity_batches\n    payload = get_json(\n        self.session,\n        f\"{self.profile.base_url}/{entity_set}\",\n        params={\"$top\": batch_size, \"$skip\": skip},\n    )\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\http.py\", line 32, in get_json\n    response = session.get(url, params=params, timeout=DEFAULT_TIMEOUT_SECONDS)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py\", line 602, in get\n    return self.request(\"GET\", url, **kwargs)\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py\", line 589, in request\n    resp = self.send(prep, **send_kwargs)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py\", line 746, in send\n    r.content\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\models.py\", line 902, in content\n    self._content = b\"\".join(self.iter_content(CONTENT_CHUNK_SIZE)) or b\"\"\n                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+    },
+    {
+      "entity_set": "GTT_STU_CALCULATOR",
+      "error": "",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 106, in download_service\n    result = future.result(timeout=ENTITY_TIMEOUT_SECONDS)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 456, in result\n    return self.__get_result()\n           ~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\thread.py\", line 59, in run\n    result = self.fn(*self.args, **self.kwargs)\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 46, in download_one_entity\n    return client.download_entity_set(\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n    ...<4 lines>...\n        skip_existing=skip_existing,\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 224, in download_entity_set\n    for batch in self.iter_entity_batches(\n                 ~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n        page_size=page_size,\n        ^^^^^^^^^^^^^^^^^^^^\n        row_limit=row_limit,\n        ^^^^^^^^^^^^^^^^^^^^\n    ):\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 174, in iter_entity_batches\n    payload = get_json(\n        self.session,\n        f\"{self.profile.base_url}/{entity_set}\",\n        params={\"$top\": batch_size, \"$skip\": skip},\n    )\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\http.py\", line 32, in get_json\n    response = session.get(url, params=params, timeout=DEFAULT_TIMEOUT_SECONDS)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py\", line 602, in get\n    return self.request(\"GET\", url, **kwargs)\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py\", line 589, in request\n    resp = self.send(prep, **send_kwargs)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py\", line 746, in send\n    r.content\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\models.py\", line 902, in content\n    self._content = b\"\".join(self.iter_content(CONTENT_CHUNK_SIZE)) or b\"\"\n                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+    },
+    {
+      "entity_set": "GTT_STU_WHAT_IF",
+      "error": "",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 106, in download_service\n    result = future.result(timeout=ENTITY_TIMEOUT_SECONDS)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 456, in result\n    return self.__get_result()\n           ~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\thread.py\", line 59, in run\n    result = self.fn(*self.args, **self.kwargs)\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 46, in download_one_entity\n    return client.download_entity_set(\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n    ...<4 lines>...\n        skip_existing=skip_existing,\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 224, in download_entity_set\n    for batch in self.iter_entity_batches(\n                 ~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n        page_size=page_size,\n        ^^^^^^^^^^^^^^^^^^^^\n        row_limit=row_limit,\n        ^^^^^^^^^^^^^^^^^^^^\n    ):\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 174, in iter_entity_batches\n    payload = get_json(\n        self.session,\n        f\"{self.profile.base_url}/{entity_set}\",\n        params={\"$top\": batch_size, \"$skip\": skip},\n    )\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\http.py\", line 32, in get_json\n    response = session.get(url, params=params, timeout=DEFAULT_TIMEOUT_SECONDS)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py\", line 602, in get\n    return self.request(\"GET\", url, **kwargs)\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py\", line 589, in request\n    resp = self.send(prep, **send_kwargs)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py\", line 746, in send\n    r.content\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\models.py\", line 902, in content\n    self._content = b\"\".join(self.iter_content(CONTENT_CHUNK_SIZE)) or b\"\"\n                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+    },
+    {
+      "entity_set": "GTT_SURVEY",
+      "error": "",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 106, in download_service\n    result = future.result(timeout=ENTITY_TIMEOUT_SECONDS)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 456, in result\n    return self.__get_result()\n           ~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\thread.py\", line 59, in run\n    result = self.fn(*self.args, **self.kwargs)\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 46, in download_one_entity\n    return client.download_entity_set(\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n    ...<4 lines>...\n        skip_existing=skip_existing,\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 224, in download_entity_set\n    for batch in self.iter_entity_batches(\n                 ~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n        page_size=page_size,\n        ^^^^^^^^^^^^^^^^^^^^\n        row_limit=row_limit,\n        ^^^^^^^^^^^^^^^^^^^^\n    ):\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 174, in iter_entity_batches\n    payload = get_json(\n        self.session,\n        f\"{self.profile.base_url}/{entity_set}\",\n        params={\"$top\": batch_size, \"$skip\": skip},\n    )\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\http.py\", line 32, in get_json\n    response = session.get(url, params=params, timeout=DEFAULT_TIMEOUT_SECONDS)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py\", line 602, in get\n    return self.request(\"GET\", url, **kwargs)\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py\", line 589, in request\n    resp = self.send(prep, **send_kwargs)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py\", line 746, in send\n    r.content\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\models.py\", line 902, in content\n    self._content = b\"\".join(self.iter_content(CONTENT_CHUNK_SIZE)) or b\"\"\n                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+    },
+    {
+      "entity_set": "GTT_SURVEY_HISTORY",
+      "error": "",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 106, in download_service\n    result = future.result(timeout=ENTITY_TIMEOUT_SECONDS)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 456, in result\n    return self.__get_result()\n           ~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\thread.py\", line 59, in run\n    result = self.fn(*self.args, **self.kwargs)\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 46, in download_one_entity\n    return client.download_entity_set(\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n    ...<4 lines>...\n        skip_existing=skip_existing,\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 224, in download_entity_set\n    for batch in self.iter_entity_batches(\n                 ~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n        page_size=page_size,\n        ^^^^^^^^^^^^^^^^^^^^\n        row_limit=row_limit,\n        ^^^^^^^^^^^^^^^^^^^^\n    ):\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 174, in iter_entity_batches\n    payload = get_json(\n        self.session,\n        f\"{self.profile.base_url}/{entity_set}\",\n        params={\"$top\": batch_size, \"$skip\": skip},\n    )\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\http.py\", line 32, in get_json\n    response = session.get(url, params=params, timeout=DEFAULT_TIMEOUT_SECONDS)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py\", line 602, in get\n    return self.request(\"GET\", url, **kwargs)\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py\", line 589, in request\n    resp = self.send(prep, **send_kwargs)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py\", line 746, in send\n    r.content\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\models.py\", line 902, in content\n    self._content = b\"\".join(self.iter_content(CONTENT_CHUNK_SIZE)) or b\"\"\n                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+    },
+    {
+      "entity_set": "GTT_WHAT_IF_ANAEMIA",
+      "error": "Unable to allocate output buffer.",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 106, in download_service\n    result = future.result(timeout=ENTITY_TIMEOUT_SECONDS)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 456, in result\n    return self.__get_result()\n           ~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\thread.py\", line 59, in run\n    result = self.fn(*self.args, **self.kwargs)\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 46, in download_one_entity\n    return client.download_entity_set(\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n    ...<4 lines>...\n        skip_existing=skip_existing,\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 224, in download_entity_set\n    for batch in self.iter_entity_batches(\n                 ~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n        page_size=page_size,\n        ^^^^^^^^^^^^^^^^^^^^\n        row_limit=row_limit,\n        ^^^^^^^^^^^^^^^^^^^^\n    ):\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 174, in iter_entity_batches\n    payload = get_json(\n        self.session,\n        f\"{self.profile.base_url}/{entity_set}\",\n        params={\"$top\": batch_size, \"$skip\": skip},\n    )\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\http.py\", line 32, in get_json\n    response = session.get(url, params=params, timeout=DEFAULT_TIMEOUT_SECONDS)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py\", line 602, in get\n    return self.request(\"GET\", url, **kwargs)\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py\", line 589, in request\n    resp = self.send(prep, **send_kwargs)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py\", line 746, in send\n    r.content\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\models.py\", line 902, in content\n    self._content = b\"\".join(self.iter_content(CONTENT_CHUNK_SIZE)) or b\"\"\n                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\models.py\", line 820, in generate\n    yield from self.raw.stream(chunk_size, decode_content=True)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\response.py\", line 1088, in stream\n    yield from self.read_chunked(amt, decode_content=decode_content)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\response.py\", line 1252, in read_chunked\n    decoded = self._decode(\n        chunk, decode_content=decode_content, flush_decoder=False\n    )\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\response.py\", line 510, in _decode\n    data = self._decoder.decompress(data)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\response.py\", line 111, in decompress\n    ret += self._obj.decompress(data)\n           ~~~~~~~~~~~~~~~~~~~~^^^^^^\nMemoryError: Unable to allocate output buffer.\n"
+    },
+    {
+      "entity_set": "GTT_WHAT_IF_BREASTFEEDING",
+      "error": "",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 106, in download_service\n    result = future.result(timeout=ENTITY_TIMEOUT_SECONDS)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 456, in result\n    return self.__get_result()\n           ~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\thread.py\", line 59, in run\n    result = self.fn(*self.args, **self.kwargs)\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 46, in download_one_entity\n    return client.download_entity_set(\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n    ...<4 lines>...\n        skip_existing=skip_existing,\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 224, in download_entity_set\n    for batch in self.iter_entity_batches(\n                 ~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n        page_size=page_size,\n        ^^^^^^^^^^^^^^^^^^^^\n        row_limit=row_limit,\n        ^^^^^^^^^^^^^^^^^^^^\n    ):\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 174, in iter_entity_batches\n    payload = get_json(\n        self.session,\n        f\"{self.profile.base_url}/{entity_set}\",\n        params={\"$top\": batch_size, \"$skip\": skip},\n    )\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\http.py\", line 32, in get_json\n    response = session.get(url, params=params, timeout=DEFAULT_TIMEOUT_SECONDS)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py\", line 602, in get\n    return self.request(\"GET\", url, **kwargs)\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py\", line 589, in request\n    resp = self.send(prep, **send_kwargs)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py\", line 746, in send\n    r.content\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\models.py\", line 902, in content\n    self._content = b\"\".join(self.iter_content(CONTENT_CHUNK_SIZE)) or b\"\"\n                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+    },
+    {
+      "entity_set": "GTT_WHAT_IF_GAUGE",
+      "error": "",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 106, in download_service\n    result = future.result(timeout=ENTITY_TIMEOUT_SECONDS)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 456, in result\n    return self.__get_result()\n           ~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\thread.py\", line 59, in run\n    result = self.fn(*self.args, **self.kwargs)\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 46, in download_one_entity\n    return client.download_entity_set(\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n    ...<4 lines>...\n        skip_existing=skip_existing,\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 224, in download_entity_set\n    for batch in self.iter_entity_batches(\n                 ~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n        page_size=page_size,\n        ^^^^^^^^^^^^^^^^^^^^\n        row_limit=row_limit,\n        ^^^^^^^^^^^^^^^^^^^^\n    ):\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 174, in iter_entity_batches\n    payload = get_json(\n        self.session,\n        f\"{self.profile.base_url}/{entity_set}\",\n        params={\"$top\": batch_size, \"$skip\": skip},\n    )\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\http.py\", line 34, in get_json\n    return response.json()\n           ~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\models.py\", line 976, in json\n    return complexjson.loads(self.text, **kwargs)\n                             ^^^^^^^^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\models.py\", line 935, in text\n    content = str(self.content, encoding, errors=\"replace\")\nMemoryError\n"
+    },
+    {
+      "entity_set": "GTT_WHAT_IF_LOWBIRTHWEIGHT",
+      "error": "Unable to allocate output buffer.",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 106, in download_service\n    result = future.result(timeout=ENTITY_TIMEOUT_SECONDS)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 456, in result\n    return self.__get_result()\n           ~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\thread.py\", line 59, in run\n    result = self.fn(*self.args, **self.kwargs)\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 46, in download_one_entity\n    return client.download_entity_set(\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n    ...<4 lines>...\n        skip_existing=skip_existing,\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 224, in download_entity_set\n    for batch in self.iter_entity_batches(\n                 ~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n        page_size=page_size,\n        ^^^^^^^^^^^^^^^^^^^^\n        row_limit=row_limit,\n        ^^^^^^^^^^^^^^^^^^^^\n    ):\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 174, in iter_entity_batches\n    payload = get_json(\n        self.session,\n        f\"{self.profile.base_url}/{entity_set}\",\n        params={\"$top\": batch_size, \"$skip\": skip},\n    )\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\http.py\", line 32, in get_json\n    response = session.get(url, params=params, timeout=DEFAULT_TIMEOUT_SECONDS)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py\", line 602, in get\n    return self.request(\"GET\", url, **kwargs)\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py\", line 589, in request\n    resp = self.send(prep, **send_kwargs)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py\", line 746, in send\n    r.content\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\models.py\", line 902, in content\n    self._content = b\"\".join(self.iter_content(CONTENT_CHUNK_SIZE)) or b\"\"\n                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\models.py\", line 820, in generate\n    yield from self.raw.stream(chunk_size, decode_content=True)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\response.py\", line 1088, in stream\n    yield from self.read_chunked(amt, decode_content=decode_content)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\response.py\", line 1252, in read_chunked\n    decoded = self._decode(\n        chunk, decode_content=decode_content, flush_decoder=False\n    )\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\response.py\", line 510, in _decode\n    data = self._decoder.decompress(data)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\response.py\", line 111, in decompress\n    ret += self._obj.decompress(data)\n           ~~~~~~~~~~~~~~~~~~~~^^^^^^\nMemoryError: Unable to allocate output buffer.\n"
+    },
+    {
+      "entity_set": "GTT_WHAT_IF_OVERWEIGHT",
+      "error": "",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 106, in download_service\n    result = future.result(timeout=ENTITY_TIMEOUT_SECONDS)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 456, in result\n    return self.__get_result()\n           ~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\thread.py\", line 59, in run\n    result = self.fn(*self.args, **self.kwargs)\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 46, in download_one_entity\n    return client.download_entity_set(\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n    ...<4 lines>...\n        skip_existing=skip_existing,\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 224, in download_entity_set\n    for batch in self.iter_entity_batches(\n                 ~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n        page_size=page_size,\n        ^^^^^^^^^^^^^^^^^^^^\n        row_limit=row_limit,\n        ^^^^^^^^^^^^^^^^^^^^\n    ):\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 174, in iter_entity_batches\n    payload = get_json(\n        self.session,\n        f\"{self.profile.base_url}/{entity_set}\",\n        params={\"$top\": batch_size, \"$skip\": skip},\n    )\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\http.py\", line 32, in get_json\n    response = session.get(url, params=params, timeout=DEFAULT_TIMEOUT_SECONDS)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py\", line 602, in get\n    return self.request(\"GET\", url, **kwargs)\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py\", line 589, in request\n    resp = self.send(prep, **send_kwargs)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py\", line 746, in send\n    r.content\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\models.py\", line 902, in content\n    self._content = b\"\".join(self.iter_content(CONTENT_CHUNK_SIZE)) or b\"\"\n                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+    },
+    {
+      "entity_set": "GTT_WHAT_IF_STUNTING",
+      "error": "",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 106, in download_service\n    result = future.result(timeout=ENTITY_TIMEOUT_SECONDS)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 456, in result\n    return self.__get_result()\n           ~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\thread.py\", line 59, in run\n    result = self.fn(*self.args, **self.kwargs)\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 46, in download_one_entity\n    return client.download_entity_set(\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n    ...<4 lines>...\n        skip_existing=skip_existing,\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 224, in download_entity_set\n    for batch in self.iter_entity_batches(\n                 ~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n        page_size=page_size,\n        ^^^^^^^^^^^^^^^^^^^^\n        row_limit=row_limit,\n        ^^^^^^^^^^^^^^^^^^^^\n    ):\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 174, in iter_entity_batches\n    payload = get_json(\n        self.session,\n        f\"{self.profile.base_url}/{entity_set}\",\n        params={\"$top\": batch_size, \"$skip\": skip},\n    )\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\http.py\", line 32, in get_json\n    response = session.get(url, params=params, timeout=DEFAULT_TIMEOUT_SECONDS)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py\", line 602, in get\n    return self.request(\"GET\", url, **kwargs)\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py\", line 589, in request\n    resp = self.send(prep, **send_kwargs)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py\", line 746, in send\n    r.content\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\models.py\", line 902, in content\n    self._content = b\"\".join(self.iter_content(CONTENT_CHUNK_SIZE)) or b\"\"\n                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+    },
+    {
+      "entity_set": "NLIS_FACTS_FOR_APP",
+      "error": "",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 106, in download_service\n    result = future.result(timeout=ENTITY_TIMEOUT_SECONDS)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 456, in result\n    return self.__get_result()\n           ~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\thread.py\", line 59, in run\n    result = self.fn(*self.args, **self.kwargs)\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 46, in download_one_entity\n    return client.download_entity_set(\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n    ...<4 lines>...\n        skip_existing=skip_existing,\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 224, in download_entity_set\n    for batch in self.iter_entity_batches(\n                 ~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n        page_size=page_size,\n        ^^^^^^^^^^^^^^^^^^^^\n        row_limit=row_limit,\n        ^^^^^^^^^^^^^^^^^^^^\n    ):\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 174, in iter_entity_batches\n    payload = get_json(\n        self.session,\n        f\"{self.profile.base_url}/{entity_set}\",\n        params={\"$top\": batch_size, \"$skip\": skip},\n    )\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\http.py\", line 32, in get_json\n    response = session.get(url, params=params, timeout=DEFAULT_TIMEOUT_SECONDS)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py\", line 602, in get\n    return self.request(\"GET\", url, **kwargs)\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py\", line 589, in request\n    resp = self.send(prep, **send_kwargs)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py\", line 746, in send\n    r.content\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\models.py\", line 902, in content\n    self._content = b\"\".join(self.iter_content(CONTENT_CHUNK_SIZE)) or b\"\"\n                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+    },
+    {
+      "entity_set": "REF_GTT_MEMBERSHIP",
+      "error": "[WinError 32] The process cannot access the file because it is being used by another process: 'C:\\\\Projects\\\\who-data-lakehouse\\\\data\\\\raw\\\\xmart\\\\nutrition\\\\REF_GTT_MEMBERSHIP.jsonl.gz'",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 106, in download_service\n    result = future.result(timeout=ENTITY_TIMEOUT_SECONDS)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 456, in result\n    return self.__get_result()\n           ~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\thread.py\", line 59, in run\n    result = self.fn(*self.args, **self.kwargs)\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 46, in download_one_entity\n    return client.download_entity_set(\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n    ...<4 lines>...\n        skip_existing=skip_existing,\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 212, in download_entity_set\n    raw_path.unlink()\n    ~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\pathlib\\_local.py\", line 746, in unlink\n    os.unlink(self)\n    ~~~~~~~~~^^^^^^\nPermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\\\Projects\\\\who-data-lakehouse\\\\data\\\\raw\\\\xmart\\\\nutrition\\\\REF_GTT_MEMBERSHIP.jsonl.gz'\n"
+    },
+    {
+      "entity_set": "VMNIS_MICRONUTS_PUBLIC",
+      "error": "",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 106, in download_service\n    result = future.result(timeout=ENTITY_TIMEOUT_SECONDS)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 456, in result\n    return self.__get_result()\n           ~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\thread.py\", line 59, in run\n    result = self.fn(*self.args, **self.kwargs)\n  File \"C:\\Projects\\who-data-lakehouse\\scripts\\bulk_xmart_download.py\", line 46, in download_one_entity\n    return client.download_entity_set(\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n    ...<4 lines>...\n        skip_existing=skip_existing,\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 224, in download_entity_set\n    for batch in self.iter_entity_batches(\n                 ~~~~~~~~~~~~~~~~~~~~~~~~^\n        entity_set=entity_set,\n        ^^^^^^^^^^^^^^^^^^^^^^\n        page_size=page_size,\n        ^^^^^^^^^^^^^^^^^^^^\n        row_limit=row_limit,\n        ^^^^^^^^^^^^^^^^^^^^\n    ):\n    ^\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\sources\\xmart.py\", line 174, in iter_entity_batches\n    payload = get_json(\n        self.session,\n        f\"{self.profile.base_url}/{entity_set}\",\n        params={\"$top\": batch_size, \"$skip\": skip},\n    )\n  File \"C:\\Projects\\who-data-lakehouse\\src\\who_data_lakehouse\\http.py\", line 32, in get_json\n    response = session.get(url, params=params, timeout=DEFAULT_TIMEOUT_SECONDS)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py\", line 602, in get\n    return self.request(\"GET\", url, **kwargs)\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py\", line 589, in request\n    resp = self.send(prep, **send_kwargs)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py\", line 746, in send\n    r.content\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\models.py\", line 902, in content\n    self._content = b\"\".join(self.iter_content(CONTENT_CHUNK_SIZE)) or b\"\"\n                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+    }
+  ]
+}

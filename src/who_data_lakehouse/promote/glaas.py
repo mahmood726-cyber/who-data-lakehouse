@@ -27,6 +27,10 @@ def promote_glaas(
         if df.empty:
             continue
         df = normalize_columns(df)
+        # Coerce mixed-type object columns to string for parquet compatibility
+        for col in df.columns:
+            if df[col].dtype == "object":
+                df[col] = df[col].astype(str).replace("nan", pd.NA).replace("None", pd.NA)
         safe = sheet_name.lower().strip().replace(" ", "_").replace("-", "_").replace("/", "_")
         out_path = silver_dir / f"{safe}.parquet"
         df.to_parquet(out_path, index=False)

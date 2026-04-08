@@ -1,0 +1,70 @@
+
+======================================================================
+RETRY PLAN: 49 failed entity sets
+======================================================================
+
+  mncah        EXPORT_FACT_DATA_MCA_TABLE                    JSON_PARSE      page=1000
+  mncah        FACT_DATA_MCA                                 SERVER_ERROR    page=1000
+  mncah        FACT_DATA_MCA_TABLE                           JSON_PARSE      page=1000
+  mncah        MCA_FACT_DATA                                 BAD_REQUEST     page=500
+  mncah        MCA_FACT_DATA_AGGREGATED                      BAD_REQUEST     page=500
+  mncah        POP_ADLPCT                                    BAD_REQUEST     page=500
+  mncah        PS_FACT_OTHER                                 JSON_PARSE      page=1000
+  mncah        QED_Common_Indicator                          JSON_PARSE      page=1000
+  wiise        AD_INCIDENCES                                 SERVER_ERROR    page=1000
+  wiise        AD_INDICATORS                                 JSON_PARSE      page=1000
+  wiise        AD_MNTE                                       BAD_REQUEST     page=500
+  wiise        AD_OUTBREAKS                                  JSON_PARSE      page=1000
+  wiise        REF_POPULATIONS                               SERVER_ERROR    page=1000
+  wiise        V_BOD_IND_IA2030_IVAC_AGG_LONG                BAD_REQUEST     page=500
+  wiise        V_BOD_IND_IA2030_IVAC_LONG                    BAD_REQUEST     page=500
+  wiise        V_COV_UPTAKE_AGEGROUP_LAST_MONTH_LONG         SERVER_ERROR    page=1000
+  wiise        V_COV_UPTAKE_ALL_LONG                         SERVER_ERROR    page=1000
+  wiise        V_COV_UPTAKE_VACCINE_LAST_MONTH_LONG          SERVER_ERROR    page=1000
+  wiise        V_COV_UPTAKE_VACCINE_LONG                     SERVER_ERROR    page=1000
+  wiise        V_RI_IND_IA2030_IVAC_AGG_LONG                 BAD_REQUEST     page=500
+  wiise        V_RI_IND_IA2030_IVAC_LONG                     BAD_REQUEST     page=500
+  flumart      VIW_FID_EPI                                   SERVER_ERROR    page=1000
+  flumart      VIW_FID_SHINY                                 SERVER_ERROR    page=1000
+  flumart      VIW_FNT                                       TIMEOUT         page=1000
+  ncd          FACT_NCD_MORTALITY                            BAD_REQUEST     page=500
+  ncd          FACT_NCD_PROJ_TARGETS                         JSON_PARSE      page=1000
+  ncd          FACT_NCD_RISKFACTOR_BLOODGLUCOSE              BAD_REQUEST     page=500
+  ncd          FACT_NCD_RISKFACTOR_BMI                       BAD_REQUEST     page=500
+  nutrition    GTT_ANA_CALCULATOR_V                          TIMEOUT         page=1000
+  nutrition    GTT_EBF_WHAT_IF                               TIMEOUT         page=1000
+  nutrition    GTT_LBW_CALCULATOR                            TIMEOUT         page=1000
+  nutrition    GTT_LBW_CALCULATOR_V                          TIMEOUT         page=1000
+  nutrition    GTT_LBW_WHAT_IF                               TIMEOUT         page=1000
+  nutrition    GTT_OVR_WHAT_IF                               UNKNOWN         page=1000
+  nutrition    GTT_STATUS_LC                                 UNKNOWN         page=1000
+  nutrition    GTT_STATUS_MESSAGES                           UNKNOWN         page=1000
+  nutrition    GTT_STU_CALCULATOR                            UNKNOWN         page=1000
+  nutrition    GTT_STU_WHAT_IF                               UNKNOWN         page=1000
+  nutrition    GTT_SURVEY                                    UNKNOWN         page=1000
+  nutrition    GTT_SURVEY_HISTORY                            UNKNOWN         page=1000
+  nutrition    GTT_WHAT_IF_ANAEMIA                           MEMORY          page=1000
+  nutrition    GTT_WHAT_IF_BREASTFEEDING                     UNKNOWN         page=1000
+  nutrition    GTT_WHAT_IF_GAUGE                             UNKNOWN         page=1000
+  nutrition    GTT_WHAT_IF_LOWBIRTHWEIGHT                    MEMORY          page=1000
+  nutrition    GTT_WHAT_IF_OVERWEIGHT                        UNKNOWN         page=1000
+  nutrition    GTT_WHAT_IF_STUNTING                          UNKNOWN         page=1000
+  nutrition    NLIS_FACTS_FOR_APP                            UNKNOWN         page=1000
+  nutrition    REF_GTT_MEMBERSHIP                            FILE_LOCK       page=1000
+  nutrition    VMNIS_MICRONUTS_PUBLIC                        UNKNOWN         page=1000
+
+Starting retries at 2026-04-07T23:07:39.495898+00:00 ...
+
+
+============================================================
+[1/49] mncah/EXPORT_FACT_DATA_MCA_TABLE (was: JSON_PARSE, page_size=1000)
+============================================================
+  [EXPORT_FACT_DATA_MCA_TABLE] 100,000 rows fetched (100 pages) ...
+  [EXPORT_FACT_DATA_MCA_TABLE] 200,000 rows fetched (200 pages) ...
+  [EXPORT_FACT_DATA_MCA_TABLE] 300,000 rows fetched (300 pages) ...
+  [EXPORT_FACT_DATA_MCA_TABLE] 400,000 rows fetched (400 pages) ...
+  [EXPORT_FACT_DATA_MCA_TABLE] 500,000 rows fetched (500 pages) ...
+  [EXPORT_FACT_DATA_MCA_TABLE] 600,000 rows fetched (600 pages) ...
+  [EXPORT_FACT_DATA_MCA_TABLE] 700,000 rows fetched (700 pages) ...
+  [EXPORT_FACT_DATA_MCA_TABLE] 800,000 rows fetched (800 pages) ...
+  [EXPORT_FACT_DATA_MCA_TABLE] 900,000 rows fetched (900 pages) ...

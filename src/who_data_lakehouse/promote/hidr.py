@@ -36,6 +36,10 @@ def promote_hidr(
             continue
 
         df = normalize_columns(df)
+        # Coerce mixed-type object columns to string for parquet compatibility
+        for col in df.columns:
+            if df[col].dtype == "object":
+                df[col] = df[col].astype(str).replace("nan", pd.NA).replace("None", pd.NA)
         df.to_parquet(parquet_path, index=False)
         results.append({"file": xlsx_path.name, "status": "promoted", "rows": len(df), "path": str(parquet_path)})
 

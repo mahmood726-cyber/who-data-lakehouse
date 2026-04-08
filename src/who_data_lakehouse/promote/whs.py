@@ -40,6 +40,10 @@ def promote_whs(
             if df.empty:
                 continue
             df = normalize_columns(df)
+            # Coerce mixed-type object columns to string for parquet compatibility
+            for col in df.columns:
+                if df[col].dtype == "object":
+                    df[col] = df[col].astype(str).replace("nan", pd.NA).replace("None", pd.NA)
             if idx == 0:
                 out_path = main_out
             else:
