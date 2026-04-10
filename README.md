@@ -235,6 +235,40 @@ $env:PWCLI = "$env:CODEX_HOME\\skills\\playwright\\scripts\\playwright_cli.sh"
 
 Artifacts belong under `output/playwright/`.
 
+## Domain Extractors
+
+Six domain-specific extractors pull standardized indicators from the GHO OData API via `WHOClient`:
+
+| Domain | Module | Indicators |
+|--------|--------|-----------|
+| Mortality | `extractors.mortality` | Life expectancy, U5MR, maternal mortality, neonatal mortality |
+| Morbidity | `extractors.morbidity` | TB, malaria, HIV, NCD obesity |
+| Risk Factors | `extractors.risk_factors` | Tobacco, alcohol, obesity, raised BP |
+| Health Systems | `extractors.health_systems` | UHC index, doctors, nursing, hospital beds |
+| Expenditure | `extractors.expenditure` | CHE/GDP, OOP, GGHE (GHED codes) |
+| Immunization | `extractors.immunization` | DTP3, MCV1, BCG coverage |
+
+Each extractor returns a `pandas.DataFrame` with columns: `country_iso3`, `year`, `indicator`, `value`, `sex`, `data_source`.
+
+## Country Cross-Walk
+
+`crosswalk.py` maps between WHO GHO SpatialDim codes (ISO3), IHME location_id, and World Bank country codes for 66 countries. Use `enrich_dataframe()` to add IHME and WB columns to any extractor output.
+
+## Quality Checks
+
+`quality.py` provides three utilities:
+- `check_completeness()` — percentage of non-null values
+- `check_temporal_coverage()` — min/max year per country, gap detection
+- `detect_outliers()` — country-specific z-score flagging at configurable sigma
+
+## Tests
+
+```powershell
+python -m pytest tests/ -v -k "not api"
+```
+
+81 tests covering API client (mock), crosswalk, 6 extractors, quality module, and existing promotion pipeline. All mock-based, no network required.
+
 ## GitHub guidance
 
 Do not commit the full raw WHO corpus into normal git history.
