@@ -68,3 +68,400 @@ Starting retries at 2026-04-07T23:07:39.495898+00:00 ...
   [EXPORT_FACT_DATA_MCA_TABLE] 700,000 rows fetched (700 pages) ...
   [EXPORT_FACT_DATA_MCA_TABLE] 800,000 rows fetched (800 pages) ...
   [EXPORT_FACT_DATA_MCA_TABLE] 900,000 rows fetched (900 pages) ...
+  [EXPORT_FACT_DATA_MCA_TABLE] 1,000,000 rows fetched (1000 pages) ...
+  [EXPORT_FACT_DATA_MCA_TABLE] 1,100,000 rows fetched (1100 pages) ...
+  [EXPORT_FACT_DATA_MCA_TABLE] 1,200,000 rows fetched (1200 pages) ...
+  [EXPORT_FACT_DATA_MCA_TABLE] 1,300,000 rows fetched (1300 pages) ...
+  [EXPORT_FACT_DATA_MCA_TABLE] 1,400,000 rows fetched (1400 pages) ...
+  [EXPORT_FACT_DATA_MCA_TABLE] 1,500,000 rows fetched (1500 pages) ...
+  [EXPORT_FACT_DATA_MCA_TABLE] 1,600,000 rows fetched (1600 pages) ...
+  [EXPORT_FACT_DATA_MCA_TABLE] 1,700,000 rows fetched (1700 pages) ...
+  [EXPORT_FACT_DATA_MCA_TABLE] 1,800,000 rows fetched (1800 pages) ...
+  [EXPORT_FACT_DATA_MCA_TABLE] 1,900,000 rows fetched (1900 pages) ...
+  [EXPORT_FACT_DATA_MCA_TABLE] 2,000,000 rows fetched (2000 pages) ...
+  [EXPORT_FACT_DATA_MCA_TABLE] 2,100,000 rows fetched (2100 pages) ...
+  [EXPORT_FACT_DATA_MCA_TABLE] 2,200,000 rows fetched (2200 pages) ...
+  [EXPORT_FACT_DATA_MCA_TABLE] 2,300,000 rows fetched (2300 pages) ...
+  [EXPORT_FACT_DATA_MCA_TABLE] 2,400,000 rows fetched (2400 pages) ...
+  [EXPORT_FACT_DATA_MCA_TABLE] 2,500,000 rows fetched (2500 pages) ...
+  [EXPORT_FACT_DATA_MCA_TABLE] 2,600,000 rows fetched (2600 pages) ...
+  [EXPORT_FACT_DATA_MCA_TABLE] 2,700,000 rows fetched (2700 pages) ...
+  [EXPORT_FACT_DATA_MCA_TABLE] 2,800,000 rows fetched (2800 pages) ...
+  [EXPORT_FACT_DATA_MCA_TABLE] 2,900,000 rows fetched (2900 pages) ...
+C:\Projects\who-data-lakehouse\src\who_data_lakehouse\sources\xmart.py:278: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  chunk = pd.concat(frames, ignore_index=True)
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\models.py", line 976, in json
+    return complexjson.loads(self.text, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 2 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\who-data-lakehouse\scripts\retry_big_tables.py", line 183, in main
+    result = retry_one(svc, entity, target["page_size"], target["chunk_rows"])
+  File "C:\Projects\who-data-lakehouse\scripts\retry_big_tables.py", line 125, in retry_one
+    result = client.download_entity_set(
+        entity_set=entity_set,
+    ...<3 lines>...
+        chunk_rows=chunk_rows,
+    )
+  File "C:\Projects\who-data-lakehouse\src\who_data_lakehouse\sources\xmart.py", line 224, in download_entity_set
+    for batch in self.iter_entity_batches(
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^
+        entity_set=entity_set,
+        ^^^^^^^^^^^^^^^^^^^^^^
+        page_size=page_size,
+        ^^^^^^^^^^^^^^^^^^^^
+        row_limit=row_limit,
+        ^^^^^^^^^^^^^^^^^^^^
+    ):
+    ^
+  File "C:\Projects\who-data-lakehouse\src\who_data_lakehouse\sources\xmart.py", line 174, in iter_entity_batches
+    payload = get_json(
+        self.session,
+        f"{self.profile.base_url}/{entity_set}",
+        params={"$top": batch_size, "$skip": skip},
+    )
+  File "C:\Projects\who-data-lakehouse\src\who_data_lakehouse\http.py", line 34, in get_json
+    return response.json()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\models.py", line 980, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 2 (char 1)
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1430, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+        self, url, f"Read timed out. (read timeout={timeout_value})"
+    ) from err
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='xmart-api-public.who.int', port=443): Read timed out. (read timeout=180)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 942, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 942, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='xmart-api-public.who.int', port=443): Max retries exceeded with url: /mncah/FACT_DATA_MCA?%24top=1000&%24skip=16000 (Caused by ReadTimeoutError("HTTPSConnectionPool(host='xmart-api-public.who.int', port=443): Read timed out. (read timeout=180)"))
+
+During handling of the above exception, another exception occurred:
+
+  -> FAIL: Expecting value: line 1 column 2 (char 1)
+
+============================================================
+[2/49] mncah/FACT_DATA_MCA (was: SERVER_ERROR, page_size=1000)
+============================================================
+  -> FAIL: HTTPSConnectionPool(host='xmart-api-public.who.int', port=443): Max retries exceeded with url: /mncah/FACT_DATA_MCA?%24top=1000&%24skip=16000 (Caused by ReadTimeoutError("HTTPSConnectionPool(host='xmart-api-public.who.int', port=443): Read timed out. (read timeout=180)"))
+
+============================================================
+[3/49] mncah/FACT_DATA_MCA_TABLE (was: JSON_PARSE, page_size=1000)
+============================================================
+  -> FAIL: Expecting value: line 1 column 1 (char 0)
+
+============================================================
+[4/49] mncah/MCA_FACT_DATA (was: BAD_REQUEST, page_size=500)
+============================================================
+  [MCA_FACT_DATA] 50,000 rows fetched (100 pages) ...
+  [MCA_FACT_DATA] 100,000 rows fetched (200 pages) ...
+  [MCA_FACT_DATA] 150,000 rows fetched (300 pages) ...
+  [MCA_FACT_DATA] 200,000 rows fetched (400 pages) ...
+  [MCA_FACT_DATA] 250,000 rows fetched (500 pages) ...
+  [MCA_FACT_DATA] 300,000 rows fetched (600 pages) ...
+  [MCA_FACT_DATA] 350,000 rows fetched (700 pages) ...
+  [MCA_FACT_DATA] 400,000 rows fetched (800 pages) ...
+  [MCA_FACT_DATA] 450,000 rows fetched (900 pages) ...
+  [MCA_FACT_DATA] 500,000 rows fetched (1000 pages) ...
+  [MCA_FACT_DATA] 550,000 rows fetched (1100 pages) ...
+  [MCA_FACT_DATA] 600,000 rows fetched (1200 pages) ...
+  [MCA_FACT_DATA] 650,000 rows fetched (1300 pages) ...
+  [MCA_FACT_DATA] 700,000 rows fetched (1400 pages) ...
+  [MCA_FACT_DATA] 750,000 rows fetched (1500 pages) ...
+  [MCA_FACT_DATA] 800,000 rows fetched (1600 pages) ...
+  [MCA_FACT_DATA] 850,000 rows fetched (1700 pages) ...
+  [MCA_FACT_DATA] 900,000 rows fetched (1800 pages) ...
+  [MCA_FACT_DATA] 950,000 rows fetched (1900 pages) ...
+  [MCA_FACT_DATA] 1,000,000 rows fetched (2000 pages) ...
+  [MCA_FACT_DATA] 1,050,000 rows fetched (2100 pages) ...
+  [MCA_FACT_DATA] 1,100,000 rows fetched (2200 pages) ...
+  [MCA_FACT_DATA] 1,150,000 rows fetched (2300 pages) ...
+  [MCA_FACT_DATA] 1,200,000 rows fetched (2400 pages) ...
+  [MCA_FACT_DATA] 1,250,000 rows fetched (2500 pages) ...
+  [MCA_FACT_DATA] 1,300,000 rows fetched (2600 pages) ...
+  [MCA_FACT_DATA] 1,350,000 rows fetched (2700 pages) ...
+  [MCA_FACT_DATA] 1,400,000 rows fetched (2800 pages) ...
+  [MCA_FACT_DATA] 1,450,000 rows fetched (2900 pages) ...
+  [MCA_FACT_DATA] 1,500,000 rows fetched (3000 pages) ...
+Traceback (most recent call last):
+  File "C:\Projects\who-data-lakehouse\scripts\retry_big_tables.py", line 183, in main
+    result = retry_one(svc, entity, target["page_size"], target["chunk_rows"])
+  File "C:\Projects\who-data-lakehouse\scripts\retry_big_tables.py", line 125, in retry_one
+    result = client.download_entity_set(
+        entity_set=entity_set,
+    ...<3 lines>...
+        chunk_rows=chunk_rows,
+    )
+  File "C:\Projects\who-data-lakehouse\src\who_data_lakehouse\sources\xmart.py", line 224, in download_entity_set
+    for batch in self.iter_entity_batches(
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^
+        entity_set=entity_set,
+        ^^^^^^^^^^^^^^^^^^^^^^
+        page_size=page_size,
+        ^^^^^^^^^^^^^^^^^^^^
+        row_limit=row_limit,
+        ^^^^^^^^^^^^^^^^^^^^
+    ):
+    ^
+  File "C:\Projects\who-data-lakehouse\src\who_data_lakehouse\sources\xmart.py", line 174, in iter_entity_batches
+    payload = get_json(
+        self.session,
+        f"{self.profile.base_url}/{entity_set}",
+        params={"$top": batch_size, "$skip": skip},
+    )
+  File "C:\Projects\who-data-lakehouse\src\who_data_lakehouse\http.py", line 32, in get_json
+    response = session.get(url, params=params, timeout=DEFAULT_TIMEOUT_SECONDS)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\adapters.py", line 677, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='xmart-api-public.who.int', port=443): Max retries exceeded with url: /mncah/FACT_DATA_MCA?%24top=1000&%24skip=16000 (Caused by ReadTimeoutError("HTTPSConnectionPool(host='xmart-api-public.who.int', port=443): Read timed out. (read timeout=180)"))
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\models.py", line 976, in json
+    return complexjson.loads(self.text, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\who-data-lakehouse\scripts\retry_big_tables.py", line 183, in main
+    result = retry_one(svc, entity, target["page_size"], target["chunk_rows"])
+  File "C:\Projects\who-data-lakehouse\scripts\retry_big_tables.py", line 125, in retry_one
+    result = client.download_entity_set(
+        entity_set=entity_set,
+    ...<3 lines>...
+        chunk_rows=chunk_rows,
+    )
+  File "C:\Projects\who-data-lakehouse\src\who_data_lakehouse\sources\xmart.py", line 224, in download_entity_set
+    for batch in self.iter_entity_batches(
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^
+        entity_set=entity_set,
+        ^^^^^^^^^^^^^^^^^^^^^^
+        page_size=page_size,
+        ^^^^^^^^^^^^^^^^^^^^
+        row_limit=row_limit,
+        ^^^^^^^^^^^^^^^^^^^^
+    ):
+    ^
+  File "C:\Projects\who-data-lakehouse\src\who_data_lakehouse\sources\xmart.py", line 174, in iter_entity_batches
+    payload = get_json(
+        self.session,
+        f"{self.profile.base_url}/{entity_set}",
+        params={"$top": batch_size, "$skip": skip},
+    )
+  File "C:\Projects\who-data-lakehouse\src\who_data_lakehouse\http.py", line 34, in get_json
+    return response.json()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\models.py", line 980, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "C:\Projects\who-data-lakehouse\scripts\retry_big_tables.py", line 183, in main
+    result = retry_one(svc, entity, target["page_size"], target["chunk_rows"])
+  File "C:\Projects\who-data-lakehouse\scripts\retry_big_tables.py", line 125, in retry_one
+    result = client.download_entity_set(
+        entity_set=entity_set,
+    ...<3 lines>...
+        chunk_rows=chunk_rows,
+    )
+  File "C:\Projects\who-data-lakehouse\src\who_data_lakehouse\sources\xmart.py", line 224, in download_entity_set
+    for batch in self.iter_entity_batches(
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^
+        entity_set=entity_set,
+        ^^^^^^^^^^^^^^^^^^^^^^
+        page_size=page_size,
+        ^^^^^^^^^^^^^^^^^^^^
+        row_limit=row_limit,
+        ^^^^^^^^^^^^^^^^^^^^
+    ):
+    ^
+  File "C:\Projects\who-data-lakehouse\src\who_data_lakehouse\sources\xmart.py", line 174, in iter_entity_batches
+    payload = get_json(
+        self.session,
+        f"{self.profile.base_url}/{entity_set}",
+        params={"$top": batch_size, "$skip": skip},
+    )
+  File "C:\Projects\who-data-lakehouse\src\who_data_lakehouse\http.py", line 32, in get_json
+    response = session.get(url, params=params, timeout=DEFAULT_TIMEOUT_SECONDS)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\sessions.py", line 746, in send
+    r.content
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\models.py", line 902, in content
+    self._content = b"".join(self.iter_content(CONTENT_CHUNK_SIZE)) or b""
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+Traceback (most recent call last):
+  File "C:\Projects\who-data-lakehouse\scripts\retry_big_tables.py", line 183, in main
+    result = retry_one(svc, entity, target["page_size"], target["chunk_rows"])
+  File "C:\Projects\who-data-lakehouse\scripts\retry_big_tables.py", line 125, in retry_one
+    result = client.download_entity_set(
+        entity_set=entity_set,
+    ...<3 lines>...
+        chunk_rows=chunk_rows,
+    )
+  File "C:\Projects\who-data-lakehouse\src\who_data_lakehouse\sources\xmart.py", line 224, in download_entity_set
+    for batch in self.iter_entity_batches(
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^
+        entity_set=entity_set,
+        ^^^^^^^^^^^^^^^^^^^^^^
+        page_size=page_size,
+        ^^^^^^^^^^^^^^^^^^^^
+        row_limit=row_limit,
+        ^^^^^^^^^^^^^^^^^^^^
+    ):
+    ^
+  File "C:\Projects\who-data-lakehouse\src\who_data_lakehouse\sources\xmart.py", line 174, in iter_entity_batches
+    payload = get_json(
+        self.session,
+        f"{self.profile.base_url}/{entity_set}",
+        params={"$top": batch_size, "$skip": skip},
+    )
+  File "C:\Projects\who-data-lakehouse\src\who_data_lakehouse\http.py", line 32, in get_json
+    response = session.get(url, params=params, timeout=DEFAULT_TIMEOUT_SECONDS)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  -> FAIL: 
+
+============================================================
+[5/49] mncah/MCA_FACT_DATA_AGGREGATED (was: BAD_REQUEST, page_size=500)
+============================================================
+  -> FAIL: 
+
+============================================================
+[6/49] mncah/POP_ADLPCT (was: BAD_REQUEST, page_size=500)
+============================================================
+  [POP_ADLPCT] 50,000 rows fetched (100 pages) ...
+  [POP_ADLPCT] 100,000 rows fetched (200 pages) ...
+  [POP_ADLPCT] 150,000 rows fetched (300 pages) ...

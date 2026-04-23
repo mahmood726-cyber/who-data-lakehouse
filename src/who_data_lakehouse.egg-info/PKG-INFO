@@ -5,10 +5,13 @@ Summary: Bulk download and cleaning pipeline for WHO public data.
 Requires-Python: >=3.11
 Description-Content-Type: text/markdown
 Requires-Dist: beautifulsoup4>=4.12
+Requires-Dist: numpy>=1.26
 Requires-Dist: openpyxl>=3.1
 Requires-Dist: pandas>=2.2
 Requires-Dist: pyarrow>=15.0
 Requires-Dist: requests>=2.31
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
 
 # WHO Data Lakehouse
 
@@ -31,6 +34,33 @@ The project is built around three realities:
 - `HIDR API`
   Source: https://www.who.int/data/inequality-monitor/data/hidr-api
   Use: reference tables plus whole-dataset downloads from the Health Inequality Data Repository.
+- `WHO COVID-19 dashboard`
+  Source: https://data.who.int/dashboards/covid19/data
+  Use: direct CSV releases linked from the dashboard.
+- `WHO Global Health Expenditure Database`
+  Source: https://apps.who.int/nha/database/Select/Indicators/en
+  Use: single workbook export of GHED.
+- `GLAAS data portal`
+  Source: https://glaas.who.int/
+  Use: official full-country workbook for the latest GLAAS cycle.
+- `WHO Mortality Database`
+  Source: https://www.who.int/data/data-collection-tools/who-mortality-database
+  Use: raw mortality ZIP archives and reference files.
+- `World Health Statistics`
+  Source: https://www.who.int/data/gho/publications/world-health-statistics
+  Use: annual annex spreadsheets with compact official summary tables.
+- `data.who.int page catalog`
+  Source API: https://data.who.int/api/datadot/pages
+  Use: portal-wide metadata and auditing of dashboards/platforms for additional download links.
+- `WHO XMart OData services`
+  Sources: https://platform.who.int/data/maternal-newborn-child-adolescent-ageing/data-export and https://immunizationdata.who.int/
+  Use: large WHO OData services exposed through `xmart-api-public.who.int`. Six services are supported:
+  - **mncah**: Maternal, Newborn, Child, Adolescent Health (80 entity sets, ~41M rows)
+  - **wiise**: Immunization / WIISE (149 entity sets, ~53M rows)
+  - **flumart**: Influenza surveillance (21 entity sets)
+  - **ntd**: Neglected Tropical Diseases (1 entity set)
+  - **ncd**: Non-Communicable Diseases (29 entity sets)
+  - **nutrition**: Nutrition data (51 entity sets)
 
 ## Repo layout
 
@@ -70,6 +100,42 @@ Fetch WHO indicator catalog metadata from `data.who.int`:
 who-data datadot-catalog
 ```
 
+Download a sample of `data.who.int` export files:
+
+```powershell
+who-data datadot-download --limit 10
+```
+
+Fetch `data.who.int` page metadata and scan dashboards for candidate file links:
+
+```powershell
+who-data datadot-pages --scan-download-links
+```
+
+Download useful non-indicator files discovered across `data.who.int` dashboards:
+
+```powershell
+who-data datadot-portal-download
+```
+
+Download WHO COVID-19 dashboard releases:
+
+```powershell
+who-data covid-download
+```
+
+Download the WHO Global Health Expenditure Database workbook:
+
+```powershell
+who-data ghed-download
+```
+
+Download the latest GLAAS full-country workbook:
+
+```powershell
+who-data glaas-download
+```
+
 Download HIDR reference documents:
 
 ```powershell
@@ -82,10 +148,66 @@ Download one HIDR dataset:
 who-data hidr-download --dataset-id rep_sdg
 ```
 
+Sample a batch from the HIDR reference list:
+
+```powershell
+who-data hidr-download --all-from-reference --limit 10
+```
+
+Download WHO Mortality Database raw ZIP files:
+
+```powershell
+who-data mortality-download
+```
+
+Download World Health Statistics annex spreadsheets:
+
+```powershell
+who-data whs-download
+```
+
+Audit a WHO XMart service and count its entity sets:
+
+```powershell
+who-data xmart-audit --service wiise
+who-data xmart-audit --service flumart
+```
+
+Download a curated WHO XMart service pull:
+
+```powershell
+who-data xmart-download --service mncah --skip-existing
+```
+
+Download all entity sets from any XMart service:
+
+```powershell
+who-data xmart-download --service nutrition --scope all --continue-on-error
+```
+
+Smoke-test one large XMart entity set without pulling the whole service:
+
+```powershell
+who-data xmart-download --service wiise --entity-set MT_AD_COV_LONG --row-limit 5000
+```
+
+Bulk download all XMart services (standalone long-running script):
+
+```powershell
+python scripts/bulk_xmart_download.py --service all --scope all --skip-existing
+python scripts/bulk_xmart_download.py --service mncah --exclude "*_VIEW" --exclude "*STAGING*"
+```
+
 Download and clean GHO fact tables for a small sample:
 
 ```powershell
-who-data gho-facts --indicator WHOSIS_000001 --indicator-limit 3
+who-data gho-facts --indicator-limit 3
+```
+
+Download and clean one specific GHO indicator:
+
+```powershell
+who-data gho-facts --indicator WHOSIS_000001
 ```
 
 Run an end-to-end verification sample:
@@ -93,6 +215,14 @@ Run an end-to-end verification sample:
 ```powershell
 who-data sample-sync --indicator-limit 3
 ```
+
+Run the full configured pull:
+
+```powershell
+who-data full-sync --skip-existing --concurrency 6
+```
+
+`full-sync` now includes GLAAS plus live audits of the `mncah` and `wiise` XMart services. The full XMart bulk pulls are intentionally separate because they are much larger than the existing WHO sources and are better handled as resumable service-specific runs.
 
 ## Clean schema
 
@@ -119,6 +249,40 @@ $env:PWCLI = "$env:CODEX_HOME\\skills\\playwright\\scripts\\playwright_cli.sh"
 ```
 
 Artifacts belong under `output/playwright/`.
+
+## Domain Extractors
+
+Six domain-specific extractors pull standardized indicators from the GHO OData API via `WHOClient`:
+
+| Domain | Module | Indicators |
+|--------|--------|-----------|
+| Mortality | `extractors.mortality` | Life expectancy, U5MR, maternal mortality, neonatal mortality |
+| Morbidity | `extractors.morbidity` | TB, malaria, HIV, NCD obesity |
+| Risk Factors | `extractors.risk_factors` | Tobacco, alcohol, obesity, raised BP |
+| Health Systems | `extractors.health_systems` | UHC index, doctors, nursing, hospital beds |
+| Expenditure | `extractors.expenditure` | CHE/GDP, OOP, GGHE (GHED codes) |
+| Immunization | `extractors.immunization` | DTP3, MCV1, BCG coverage |
+
+Each extractor returns a `pandas.DataFrame` with columns: `country_iso3`, `year`, `indicator`, `value`, `sex`, `data_source`.
+
+## Country Cross-Walk
+
+`crosswalk.py` maps between WHO GHO SpatialDim codes (ISO3), IHME location_id, and World Bank country codes for 66 countries. Use `enrich_dataframe()` to add IHME and WB columns to any extractor output.
+
+## Quality Checks
+
+`quality.py` provides three utilities:
+- `check_completeness()` — percentage of non-null values
+- `check_temporal_coverage()` — min/max year per country, gap detection
+- `detect_outliers()` — country-specific z-score flagging at configurable sigma
+
+## Tests
+
+```powershell
+python -m pytest tests/ -v -k "not api"
+```
+
+81 tests covering API client (mock), crosswalk, 6 extractors, quality module, and existing promotion pipeline. All mock-based, no network required.
 
 ## GitHub guidance
 

@@ -1,0 +1,7 @@
+  gho_facts: 2554 promoted, 0 skipped, 10,221,055 rows
+{
+  "sources": [
+    "gho_facts"
+  ],
+  "manifest_path": "C:\\Projects\\who-data-lakehouse\\manifests\\promote_20260408T021149Z.json"
+}

@@ -18,3 +18,5 @@ output/**
 !output/playwright/.gitkeep
 
 manifests/*.tmp
+.pytest_tmp/
+.pytest_cache_local/
